@@ -2,6 +2,8 @@
 
 <drsmyrke>
 
+	<remove xpath="/recipes/recipe[@name='resourceRepairKit']" />
+
 	<append xpath="/recipes">
 		<recipe name="resourceRepairKit" count="1">
 			<ingredient name="resourceForgedIron" count="2"/>
