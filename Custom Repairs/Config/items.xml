@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<survager>
+<drsmyrke>
 
 	<!--<remove xpath="/blocks/block[@name='cntStorageChest']" />
 	<remove xpath="/blocks/block[@name='cntSecureStorageChest']" />
@@ -157,4 +157,14 @@
 	
 	<set xpath="/items/item[@name='gunJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">1</set>
 	
-</survager>
+	
+	<!--	Armor	-->
+	<set xpath="/items/item[@name='armorClothMaster']/property[@name='RepairTools']/@value">resourceCloth</set>
+	<set xpath="/items/item[@name='armorLeatherMaster']/property[@name='RepairTools']/@value">resourceLeather</set>
+	<set xpath="/items/item[@name='armorScrapMaster']/property[@name='RepairTools']/@value">resourceScrapIron</set>
+	<set xpath="/items/item[@name='armorMilitaryMaster']/property[@name='RepairTools']/@value">armorMilitarySetParts</set>
+	<set xpath="/items/item[@name='armorIronMaster']/property[@name='RepairTools']/@value">resourceForgedIron</set>
+	<set xpath="/items/item[@name='armorSteelMaster']/property[@name='RepairTools']/@value">armorSteelSetParts</set>
+	<set xpath="/items/item[@name='armorSwatHelmet']/property[@name='RepairTools']/@value">resourceScrapIron</set>
+	
+</drsmyrke>
