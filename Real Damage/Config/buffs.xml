@@ -4,6 +4,7 @@
 	<!--
 		Infection !!!!
 	-->
+	<!--
 	<set xpath="/buffs/buff[@name='buffInfectionCatch'][@name_key='buff Infection Catch']/effect_group[@name='a chance to nope out of infection that is based on health']">
 		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".InfectionNope" operation="set" value="82.6">
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GT" value=".95"/>
@@ -36,6 +37,7 @@
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LTE" value=".50"/>
 		</triggered_effect>
 	</set>
+	-->
 	
 	<set xpath="/buffs/buff[@name='buffInfectionMain'][@name_key='buff Infection Main']/update_rate/@value">2</set>
 	

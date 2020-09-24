@@ -4,21 +4,21 @@
 	<!--
 		Knife`s
 	-->
-	<set xpath="/items/item[@name='meleeToolKnifeBone']/effect_group[@name='meleeToolKnifeBone']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">15</set>
-	<set xpath="/items/item[@name='meleeToolKnifeBone']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage'][@operation='base_add']/@value">9.1</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group[@name='meleeWpnBladeT0BoneKnife']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">15</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage'][@operation='base_add']/@value">9.1</set>
 	
-	<set xpath="/items/item[@name='meleeToolKnifeIron']/effect_group[@name='meleeToolKnifeIron']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">26</set>
-	<set xpath="/items/item[@name='meleeToolKnifeIron']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage'][@operation='base_add']/@value">16</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/effect_group[@name='meleeWpnBladeT1HuntingKnife']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">26</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage'][@operation='base_add']/@value">16</set>
 	
-	<set xpath="/items/item[@name='meleeToolKnifeMachete']/effect_group[@name='meleeToolKnifeMachete']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">45</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/effect_group[@name='meleeWpnBladeT3Machete']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">45</set>
 	<!--
 		Spear`s
 	-->
-	<set xpath="/items/item[@name='meleeThrownSpearStone']/effect_group[@name='meleeThrownSpearStone']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">20</set>
+	<set xpath="/items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group[@name='meleeWpnSpearT0StoneSpear']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">20</set>
 	
-	<set xpath="/items/item[@name='meleeThrownSpearIron']/effect_group[@name='meleeThrownSpearIron']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">24</set>
+	<set xpath="/items/item[@name='meleeWpnSpearT1IronSpear']/effect_group[@name='meleeWpnSpearT1IronSpear']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">24</set>
 	
-	<set xpath="/items/item[@name='meleeThrownSpearSteel']/effect_group[@name='meleeThrownSpearSteel']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">36</set>
+	<set xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']/effect_group[@name='meleeWpnSpearT3SteelSpear']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">36</set>
 	
 	<!--
 		Bullets
@@ -49,11 +49,14 @@
 	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/effect_group[@name='ammoShotgunBreachingSlug']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">240</set>
 	
 	<set xpath="/items/item[@name='ammoBlunderbuss']/effect_group[@name='ammoBlunderbuss']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">24</set>
-	<set xpath="/items/item[@name='ammoJunkTurret']/effect_group[@name='gunJunkTurret']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">23.6</set>
+	
+	<set xpath="/items/item[@name='ammoJunkTurretShell']/effect_group[@name='ammoJunkTurretShell']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">23.3</set>
+	<set xpath="/items/item[@name='ammoJunkTurretAP']/effect_group[@name='ammoJunkTurretAP']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">42.6</set>
 	
 	<!--
 		Zombie
 	-->
+	<!--
 	<set xpath="/items/item[@name='meleeHandZombie01']/effect_group[@name='meleeHandZombie01']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.3</set>
 	<set xpath="/items/item[@name='meleeHandZombie01']/effect_group[@name='meleeHandZombie01']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.4</set>
 	<set xpath="/items/item[@name='meleeHandZombie01']/effect_group[@name='meleeHandZombie01']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.3</set>
@@ -166,5 +169,7 @@
 	<set xpath="/items/item[@name='meleeHandAnimalZombieVulture']/effect_group[@name='meleeHandAnimalZombieVulture']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.8</set>
 	
 	<set xpath="/items/item[@name='ammoProjectileVultureVomit']/effect_group[@name='ammoProjectileVultureVomit']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.8</set>
+	
+	-->
 	
 </drsmyrke>
