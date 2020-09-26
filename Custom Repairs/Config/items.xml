@@ -202,10 +202,12 @@
 	<remove xpath="/items/item[@name='meleeToolAxeT2SteelAxe']/property[@name='RepairTools']"/>
 	<remove xpath="/items/item[@name='meleeToolPickT1IronPickaxe']/property[@name='RepairTools']"/>
 	<remove xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']/property[@name='RepairTools']"/>
+	<!--
 	<remove xpath="/items/item[@name='meleeToolShovelT0StoneShovel']/property[@name='RepairTools']"/>
+	<remove xpath="/items/item[@name='meleeWpnSledgeT0StoneSledgehammer']/property[@name='RepairTools']"/>
+	-->
 	<remove xpath="/items/item[@name='meleeToolShovelT1IronShovel']/property[@name='RepairTools']"/>
 	<remove xpath="/items/item[@name='meleeToolShovelT2SteelShovel']/property[@name='RepairTools']"/>
-	<remove xpath="/items/item[@name='meleeWpnSledgeT0StoneSledgehammer']/property[@name='RepairTools']"/>
 	<!--	Not repair ?	-->
 	<remove xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='RepairTools']"/>
 	
