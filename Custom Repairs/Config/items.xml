@@ -9,8 +9,8 @@
 	
 	<!-- Пистолеты -->
 	<append xpath="/items/item[@name='gunHandgunT1PistolParts']">
-		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="320"/>
+		<property name="RepairTime" value="40"/>
+		<property name="RepairAmount" value="64"/>
 		<!--<property name="Group" value="Resources"/>-->
 	</append>
 	
@@ -29,8 +29,8 @@
 	
 	<!-- Дробовики -->
 	<append xpath="/items/item[@name='gunShotgunT1DoubleBarrelParts']">
-		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="320"/>
+		<property name="RepairTime" value="40"/>
+		<property name="RepairAmount" value="64"/>
 		<!--<property name="Group" value="Resources"/>-->
 	</append>
 	
@@ -46,8 +46,8 @@
 	
 	<!-- Винтовки -->
 	<append xpath="/items/item[@name='gunRifleT1HuntingRifleParts']">
-		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="320"/>
+		<property name="RepairTime" value="40"/>
+		<property name="RepairAmount" value="64"/>
 		<!--<property name="Group" value="Resources"/>-->
 	</append>
 	
@@ -63,8 +63,8 @@
 	
 	<!-- Автоматы -->
 	<append xpath="/items/item[@name='gunMGT1AK47Parts']">
-		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="320"/>
+		<property name="RepairTime" value="40"/>
+		<property name="RepairAmount" value="64"/>
 		<!--<property name="Group" value="Resources"/>-->
 	</append>
 	
@@ -80,8 +80,8 @@
 	
 	<!-- РПГ -->
 	<append xpath="/items/item[@name='gunExplosivesT3RocketLauncherParts']">
-		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="320"/>
+		<property name="RepairTime" value="90"/>
+		<property name="RepairAmount" value="64"/>
 		<!--<property name="Group" value="Resources"/>-->
 	</append>
 	
@@ -92,7 +92,7 @@
 	<!-- Луки, Арбалеты -->
 	<append xpath="/items/item[@name='gunBowT1WoodenBowParts']">
 		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="320"/>
+		<property name="RepairAmount" value="64"/>
 		<!--<property name="Group" value="Resources"/>-->
 	</append>
 	
@@ -111,7 +111,7 @@
 	<!-- Бензопила и Бур -->
 	<append xpath="/items/item[@name='meleeToolAxeT3ChainsawParts']">
 		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="320"/>
+		<property name="RepairAmount" value="64"/>
 		<!--<property name="Group" value="Resources"/>-->
 	</append>
 	
@@ -131,7 +131,7 @@
 	<!-- Стальная кувалда -->
 	<append xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']">
 		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="320"/>
+		<property name="RepairAmount" value="64"/>
 		<!--<property name="Group" value="Resources"/>-->
 	</append>
 	
@@ -141,7 +141,7 @@
 	<!-- Стальной кастет -->
 	<append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnucklesParts']">
 		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="320"/>
+		<property name="RepairAmount" value="64"/>
 		<!--<property name="Group" value="Resources"/>-->
 	</append>
 	
@@ -152,7 +152,7 @@
 	<!-- Шок дубинка -->
 	<append xpath="/items/item[@name='meleeWpnBatonT2StunBatonParts']">
 		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="320"/>
+		<property name="RepairAmount" value="64"/>
 		<!--<property name="Group" value="Resources"/>-->
 	</append>
 	
@@ -166,7 +166,7 @@
 	<!-- Хламомёты -->
 	<append xpath="/items/item[@name='gunBotRoboticsParts']">
 		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="320"/>
+		<property name="RepairAmount" value="64"/>
 		<!--<property name="Group" value="Resources"/>-->
 	</append>
 	

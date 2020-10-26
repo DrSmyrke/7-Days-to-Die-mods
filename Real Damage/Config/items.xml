@@ -56,120 +56,14 @@
 	<!--
 		Zombie
 	-->
-	<!--
-	<set xpath="/items/item[@name='meleeHandZombie01']/effect_group[@name='meleeHandZombie01']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.3</set>
-	<set xpath="/items/item[@name='meleeHandZombie01']/effect_group[@name='meleeHandZombie01']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.4</set>
-	<set xpath="/items/item[@name='meleeHandZombie01']/effect_group[@name='meleeHandZombie01']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.3</set>
+	<set xpath="/items/item[@name='meleeHandZombie01']/property[@name='Action0']/property[@name='DamageEntity']/@value">30</set>
+	<set xpath="/items/item[@name='meleeHandZombie01']/effect_group[@name='meleeHandZombie01']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">30</set>
 	
-	<set xpath="/items/item[@name='meleeHandZombieFeral']/effect_group[@name='meleeHandZombieFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.6</set>
-	<set xpath="/items/item[@name='meleeHandZombieFeral']/effect_group[@name='meleeHandZombieFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.8</set>
-	<set xpath="/items/item[@name='meleeHandZombieFeral']/effect_group[@name='meleeHandZombieFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.5</set>
+	<set xpath="/items/item[@name='meleeHandZombieFeral']/property[@name='Action0']/property[@name='DamageEntity']/@value">60</set>
+	<set xpath="/items/item[@name='meleeHandZombieFeral']/effect_group[@name='meleeHandZombieFeral']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">60</set>
 	
-	<set xpath="/items/item[@name='meleeHandZombie02']/effect_group[@name='meleeHandZombie02']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.4</set>
+
 	
-	<set xpath="/items/item[@name='meleeHandZombie02Feral']/effect_group[@name='meleeHandZombie02Feral']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.8</set>
 	
-	<set xpath="/items/item[@name='meleeHandZombieBurning']/effect_group[@name='meleeHandZombieBurning']/passive_effect[@name='BuffProcChance'][@tags='buffBurningZombie'][@operation='base_set']/@value">.5</set>
-	<set xpath="/items/item[@name='meleeHandZombieBurning']/effect_group[@name='meleeHandZombieBurning']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.4</set>
-	<set xpath="/items/item[@name='meleeHandZombieBurning']/effect_group[@name='meleeHandZombieBurning']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.3</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieBurningFeral']/effect_group[@name='meleeHandZombieBurningFeral']/passive_effect[@name='BuffProcChance'][@tags='buffBurningZombie'][@operation='base_set']/@value">.8</set>
-	<set xpath="/items/item[@name='meleeHandZombieBurningFeral']/effect_group[@name='meleeHandZombieBurningFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.8</set>
-	<set xpath="/items/item[@name='meleeHandZombieBurningFeral']/effect_group[@name='meleeHandZombieBurningFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.3</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieBurningCrawler']/effect_group[@name='meleeHandZombieBurningCrawler']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.4</set>
-	<set xpath="/items/item[@name='meleeHandZombieBurningCrawler']/effect_group[@name='meleeHandZombieBurningCrawler']/passive_effect[@name='BuffProcChance'][@tags='buffBurningZombie'][@operation='base_set']/@value">.6</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieCop']/effect_group[@name='meleeHandZombieCop']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.4</set>
-	<set xpath="/items/item[@name='meleeHandZombieCop']/effect_group[@name='meleeHandZombieCop']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.8</set>
-	<set xpath="/items/item[@name='meleeHandZombieCop']/effect_group[@name='meleeHandZombieCop']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.5</set>
-	
-	<set xpath="/items/item[@name='ammoProjectileZombieVomit']/effect_group[@name='ammoProjectileZombieVomit']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">1</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieCopFeral']/effect_group[@name='meleeHandZombieCopFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.7</set>
-	<set xpath="/items/item[@name='meleeHandZombieCopFeral']/effect_group[@name='meleeHandZombieCopFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='meleeHandZombieCopFeral']/effect_group[@name='meleeHandZombieCopFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.7</set>
-	
-	<set xpath="/items/item[@name='ammoProjectileZombieVomitFeral']/effect_group[@name='ammoProjectileZombieVomitFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='ammoProjectileZombieVomitFeral']/effect_group[@name='ammoProjectileZombieVomitFeral']/passive_effect[@tags='BlockDamage'][@operation='base_set']/@value">15</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieCopRadiated']/effect_group[@name='meleeHandZombieCopRadiated']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.7</set>
-	<set xpath="/items/item[@name='meleeHandZombieCopRadiated']/effect_group[@name='meleeHandZombieCopRadiated']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='meleeHandZombieCopRadiated']/effect_group[@name='meleeHandZombieCopRadiated']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.7</set>
-	
-	<set xpath="/items/item[@name='ammoProjectileZombieVomitRadiated']/effect_group[@name='ammoProjectileZombieVomitRadiated']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='ammoProjectileZombieVomitRadiated']/effect_group[@name='ammoProjectileZombieVomitRadiated']/passive_effect[@tags='BlockDamage']/@value">17</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieDemolition']/effect_group[@name='meleeHandZombieDemolition']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.4</set>
-	<set xpath="/items/item[@name='meleeHandZombieDemolition']/effect_group[@name='meleeHandZombieDemolition']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.4</set>
-	<set xpath="/items/item[@name='meleeHandZombieDemolition']/effect_group[@name='meleeHandZombieDemolition']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.4</set>
-	
-	<set xpath="/items/item[@name='meleeHandAnimalZombieDog']/effect_group[@name='meleeHandAnimalZombieDog']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='meleeHandAnimalZombieDog']/effect_group[@name='meleeHandAnimalZombieDog']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.6</set>
-	<set xpath="/items/item[@name='meleeHandAnimalZombieDog']/effect_group[@name='meleeHandAnimalZombieDog']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.2</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieStrong']/effect_group[@name='meleeHandZombieStrong']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.4</set>
-	<set xpath="/items/item[@name='meleeHandZombieStrong']/effect_group[@name='meleeHandZombieStrong']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.4</set>
-	<set xpath="/items/item[@name='meleeHandZombieStrong']/effect_group[@name='meleeHandZombieStrong']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.4</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieStrongFeral']/effect_group[@name='meleeHandZombieStrongFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.6</set>
-	<set xpath="/items/item[@name='meleeHandZombieStrongFeral']/effect_group[@name='meleeHandZombieStrongFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.8</set>
-	<set xpath="/items/item[@name='meleeHandZombieStrongFeral']/effect_group[@name='meleeHandZombieStrongFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.6</set>
-	
-	<set xpath="/items/item[@name='meleeHandAnimalBear']/effect_group[@name='meleeHandAnimalBear']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='meleeHandAnimalBear']/effect_group[@name='meleeHandAnimalBear']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.8</set>
-	
-	<set xpath="/items/item[@name='meleeHandAnimalZombieBear']/effect_group[@name='meleeHandAnimalZombieBear']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='meleeHandAnimalZombieBear']/effect_group[@name='meleeHandAnimalZombieBear']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.8</set>
-	<set xpath="/items/item[@name='meleeHandAnimalZombieBear']/effect_group[@name='meleeHandAnimalZombieBear']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.8</set>
-	
-	<set xpath="/items/item[@name='meleeHandAnimalZombieBearFeral']/effect_group[@name='meleeHandAnimalZombieBearFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='meleeHandAnimalZombieBearFeral']/effect_group[@name='meleeHandAnimalZombieBearFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='meleeHandAnimalZombieBearFeral']/effect_group[@name='meleeHandAnimalZombieBearFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">1</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieHazMat']/effect_group[@name='meleeHandZombieHazMat']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.3</set>
-	<set xpath="/items/item[@name='meleeHandZombieHazMat']/effect_group[@name='meleeHandZombieHazMat']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='meleeHandZombieHazMat']/effect_group[@name='meleeHandZombieHazMat']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.3</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieHazMatFeral']/effect_group[@name='meleeHandZombieHazMatFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.5</set>
-	<set xpath="/items/item[@name='meleeHandZombieHazMatFeral']/effect_group[@name='meleeHandZombieHazMatFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='meleeHandZombieHazMatFeral']/effect_group[@name='meleeHandZombieHazMatFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.5</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieWorker']/effect_group[@name='meleeHandZombieWorker']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.3</set>
-	<set xpath="/items/item[@name='meleeHandZombieWorker']/effect_group[@name='meleeHandZombieWorker']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.4</set>
-	<set xpath="/items/item[@name='meleeHandZombieWorker']/effect_group[@name='meleeHandZombieWorker']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.3</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieWorkerFeral']/effect_group[@name='meleeHandZombieWorkerFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.5</set>
-	<set xpath="/items/item[@name='meleeHandZombieWorkerFeral']/effect_group[@name='meleeHandZombieWorkerFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.8</set>
-	<set xpath="/items/item[@name='meleeHandZombieWorkerFeral']/effect_group[@name='meleeHandZombieWorkerFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.5</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieFootballPlayer']/effect_group[@name='meleeHandZombieFootballPlayer']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.1</set>
-	<set xpath="/items/item[@name='meleeHandZombieFootballPlayer']/effect_group[@name='meleeHandZombieFootballPlayer']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.12</set>
-	<set xpath="/items/item[@name='meleeHandZombieFootballPlayer']/effect_group[@name='meleeHandZombieFootballPlayer']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">1</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieFootballPlayerFeral']/effect_group[@name='meleeHandZombieFootballPlayerFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.2</set>
-	<set xpath="/items/item[@name='meleeHandZombieFootballPlayerFeral']/effect_group[@name='meleeHandZombieFootballPlayerFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.4</set>
-	<set xpath="/items/item[@name='meleeHandZombieFootballPlayerFeral']/effect_group[@name='meleeHandZombieFootballPlayerFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">1</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieStripper']/effect_group[@name='meleeHandZombieStripper']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.2</set>
-	<set xpath="/items/item[@name='meleeHandZombieStripper']/effect_group[@name='meleeHandZombieStripper']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='meleeHandZombieStripper']/effect_group[@name='meleeHandZombieStripper']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.2</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieStripperFeral']/effect_group[@name='meleeHandZombieStripperFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.3</set>
-	<set xpath="/items/item[@name='meleeHandZombieStripperFeral']/effect_group[@name='meleeHandZombieStripperFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='meleeHandZombieStripperFeral']/effect_group[@name='meleeHandZombieStripperFeral']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">.3</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombieBehemoth']/effect_group[@name='meleeHandZombieBehemoth']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='meleeHandZombieBehemoth']/effect_group[@name='meleeHandZombieBehemoth']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">1</set>
-	<set xpath="/items/item[@name='meleeHandZombieBehemoth']/effect_group[@name='meleeHandZombieBehemoth']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryStunned01'][@operation='base_set']/@value">1</set>
-	
-	<set xpath="/items/item[@name='meleeHandAnimalCoyote']/effect_group[@name='meleeHandAnimalCoyote']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.6</set>
-	
-	<set xpath="/items/item[@name='meleeHandAnimalZombieVulture']/effect_group[@name='meleeHandAnimalZombieVulture']/passive_effect[@name='BuffProcChance'][@tags='buffInjuryBleedingZombie'][@operation='base_set']/@value">.2</set>
-	<set xpath="/items/item[@name='meleeHandAnimalZombieVulture']/effect_group[@name='meleeHandAnimalZombieVulture']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.8</set>
-	
-	<set xpath="/items/item[@name='ammoProjectileVultureVomit']/effect_group[@name='ammoProjectileVultureVomit']/passive_effect[@name='BuffProcChance'][@tags='buffInfectionCatch'][@operation='base_set']/@value">.8</set>
-	
-	-->
 	
 </drsmyrke>
