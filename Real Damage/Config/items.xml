@@ -56,12 +56,16 @@
 	<!--
 		Zombie
 	-->
-	<set xpath="/items/item[@name='meleeHandZombie01']/property[@name='Action0']/property[@name='DamageEntity']/@value">30</set>
+	<set xpath="/items/item[@name='meleeHandZombie01']/property[@class='Action0']/property[@name='DamageEntity']/@value">30</set>
 	<set xpath="/items/item[@name='meleeHandZombie01']/effect_group[@name='meleeHandZombie01']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">30</set>
 	
-	<set xpath="/items/item[@name='meleeHandZombieFeral']/property[@name='Action0']/property[@name='DamageEntity']/@value">60</set>
-	<set xpath="/items/item[@name='meleeHandZombieFeral']/effect_group[@name='meleeHandZombieFeral']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">60</set>
+	<set xpath="/items/item[@name='meleeHandZombie01']/effect_group[@name='meleeHandZombie01']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">200</set>
+	<set xpath="/items/item[@name='meleeHandZombie02']/effect_group[@name='meleeHandZombie02']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">200</set>
 	
+	<set xpath="/items/item[@name='meleeHandZombieFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">60</set>
+	<set xpath="/items/item[@name='meleeHandZombie02Feral']/property[@class='Action0']/property[@name='DamageEntity']/@value">60</set>
+	<set xpath="/items/item[@name='meleeHandZombieBurning']/property[@class='Action0']/property[@name='DamageEntity']/@value">24</set>
+	<set xpath="/items/item[@name='meleeHandZombieBurningFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">48</set>
 
 	
 	
