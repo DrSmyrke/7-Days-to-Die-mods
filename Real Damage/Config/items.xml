@@ -58,14 +58,42 @@
 	-->
 	<set xpath="/items/item[@name='meleeHandZombie01']/property[@class='Action0']/property[@name='DamageEntity']/@value">30</set>
 	<set xpath="/items/item[@name='meleeHandZombie01']/effect_group[@name='meleeHandZombie01']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">30</set>
-	
-	<set xpath="/items/item[@name='meleeHandZombie01']/effect_group[@name='meleeHandZombie01']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">200</set>
-	<set xpath="/items/item[@name='meleeHandZombie02']/effect_group[@name='meleeHandZombie02']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">200</set>
-	
 	<set xpath="/items/item[@name='meleeHandZombieFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">60</set>
 	<set xpath="/items/item[@name='meleeHandZombie02Feral']/property[@class='Action0']/property[@name='DamageEntity']/@value">60</set>
 	<set xpath="/items/item[@name='meleeHandZombieBurning']/property[@class='Action0']/property[@name='DamageEntity']/@value">24</set>
 	<set xpath="/items/item[@name='meleeHandZombieBurningFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">48</set>
+	<set xpath="/items/item[@name='meleeHandZombieBurningCrawler']/property[@class='Action0']/property[@name='DamageEntity']/@value">48</set>
+	<set xpath="/items/item[@name='meleeHandZombieCop']/property[@class='Action0']/property[@name='DamageEntity']/@value">80</set>
+	<set xpath="/items/item[@name='meleeHandZombieCopFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">120</set>
+	<set xpath="/items/item[@name='meleeHandAnimalZombieDog']/property[@class='Action0']/property[@name='DamageEntity']/@value">16</set>
+	<set xpath="/items/item[@name='meleeHandZombieStrong']/property[@class='Action0']/property[@name='DamageEntity']/@value">80</set>
+	<set xpath="/items/item[@name='meleeHandZombieDemolition']/property[@class='Action0']/property[@name='DamageEntity']/@value">80</set>
+	<set xpath="/items/item[@name='meleeHandZombieStrongFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">80</set>
+	
+	<set xpath="/items/item[@name='meleeHandZombie01']/effect_group[@name='meleeHandZombie01']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">200</set>
+	<set xpath="/items/item[@name='meleeHandZombieFeral']/effect_group[@name='meleeHandZombieFeral']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">200</set>
+	<set xpath="/items/item[@name='meleeHandZombie02Feral']/effect_group[@name='meleeHandZombie02Feral']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">200</set>
+	<set xpath="/items/item[@name='meleeHandZombieBurning']/effect_group[@name='meleeHandZombieBurning']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">100</set>
+	<set xpath="/items/item[@name='meleeHandZombieBurningFeral']/effect_group[@name='meleeHandZombieBurningFeral']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">200</set>
+	<set xpath="/items/item[@name='meleeHandZombieBurningCrawler']/effect_group[@name='meleeHandZombieBurningCrawler']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">200</set>
+	<set xpath="/items/item[@name='meleeHandZombie02']/effect_group[@name='meleeHandZombie02']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">200</set>
+	<set xpath="/items/item[@name='meleeHandZombieCop']/effect_group[@name='meleeHandZombieCop']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">200</set>
+	<set xpath="/items/item[@name='meleeHandZombieCopFeral']/effect_group[@name='meleeHandZombieCopFeral']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">200</set>
+	<set xpath="/items/item[@name='meleeHandZombieCopRadiated']/effect_group[@name='meleeHandZombieCopRadiated']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">400</set>
+	<set xpath="/items/item[@name='meleeHandAnimalZombieDog']/effect_group[@name='meleeHandAnimalZombieDog']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">600</set>
+	<set xpath="/items/item[@name='meleeHandZombieStrong']/effect_group[@name='meleeHandZombieStrong']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">100</set>
+	<set xpath="/items/item[@name='meleeHandZombieDemolition']/effect_group[@name='meleeHandZombieDemolition']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">100</set>
+	<set xpath="/items/item[@name='meleeHandZombieStrongFeral']/effect_group[@name='meleeHandZombieStrongFeral']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">100</set>
+	
+	
+	<set xpath="/items/item[@name='ammoProjectileZombieVomit']/property[@class='Action1']/property[@name='DamageEntity']/@value">40</set>
+	<set xpath="/items/item[@name='ammoProjectileZombieVomit']/property[@class='Action1']/property[@name='DamageBlock']/@value">12</set>
+	<set xpath="/items/item[@name='ammoProjectileZombieVomitFeral']/property[@class='Action1']/property[@name='DamageEntity']/@value">80</set>
+	<set xpath="/items/item[@name='ammoProjectileZombieVomitFeral']/property[@class='Action1']/property[@name='DamageBlock']/@value">24</set>
+	<set xpath="/items/item[@name='ammoProjectileZombieVomitRadiated']/property[@class='Action1']/property[@name='DamageEntity']/@value">100</set>
+	<set xpath="/items/item[@name='ammoProjectileZombieVomitRadiated']/property[@class='Action1']/property[@name='DamageBlock']/@value">12</set>
+	
+	
 
 	
 	
