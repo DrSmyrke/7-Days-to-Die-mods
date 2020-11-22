@@ -82,7 +82,6 @@
 	<set xpath="/items/item[@name='meleeHandZombieCopRadiated']/effect_group[@name='meleeHandZombieCopRadiated']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">400</set>
 	<set xpath="/items/item[@name='meleeHandAnimalZombieDog']/effect_group[@name='meleeHandAnimalZombieDog']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">600</set>
 	<set xpath="/items/item[@name='meleeHandZombieStrong']/effect_group[@name='meleeHandZombieStrong']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">100</set>
-	<set xpath="/items/item[@name='meleeHandZombieDemolition']/effect_group[@name='meleeHandZombieDemolition']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">100</set>
 	<set xpath="/items/item[@name='meleeHandZombieStrongFeral']/effect_group[@name='meleeHandZombieStrongFeral']/triggered_effect[@trigger='onSelfAttackedOther'][@cvar='infectionCounter']/@value">100</set>
 	
 	
@@ -96,6 +95,14 @@
 	
 
 	
+	<!--
+		Vehicle
+	-->
 	
+	<set xpath="/items/item[@name='vehicleBicyclePlaceable']/effect_group[@name='vehicleBicyclePlaceable']/passive_effect[@name='DegradationMax']/@value">150</set>
+	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/effect_group[@name='vehicleMinibikePlaceable']/passive_effect[@name='DegradationMax']/@value">300</set>
+	<set xpath="/items/item[@name='vehicleMotorcyclePlaceable']/effect_group[@name='vehicleMotorcyclePlaceable']/passive_effect[@name='DegradationMax']/@value">1500</set>
+	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/effect_group[@name='vehicle4x4TruckPlaceable']/passive_effect[@name='DegradationMax']/@value">2700</set>
+	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/effect_group[@name='vehicleGyrocopterPlaceable']/passive_effect[@name='DegradationMax']/@value">300</set>
 	
 </drsmyrke>
