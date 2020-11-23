@@ -122,9 +122,26 @@
 	<set xpath="/items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.1</set>
 	
 	
+	<!-- Копья -->
+	
+	<set xpath="/items/item[@name='meleeWpnSpearT1IronSpear']/property[@name='RepairTools']/@value">resourceForgedIron</set>
+	
+	<append xpath="/items/item[@name='meleeWpnSpearT3SteelSpearParts']">
+		<property name="RepairTime" value="10"/>
+		<property name="RepairAmount" value="64"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']">
+		<property name="RepairTools" value="meleeWpnSpearT3SteelSpearParts"/>
+	</append>
+	
 	<!-- Биты -->
 	
-	<set xpath="/items/item[@name='meleeWpnClubT3SteelClub']/property[@name='RepairTools']/@value">resourceForgedSteel</set>
+	<append xpath="/items/item[@name='meleeWpnClubT3SteelClubParts']">
+		<property name="RepairTime" value="10"/>
+		<property name="RepairAmount" value="64"/>
+	</append>
+	
+	<set xpath="/items/item[@name='meleeWpnClubT3SteelClub']/property[@name='RepairTools']/@value">meleeWpnClubT3SteelClubParts</set>
 	<remove xpath="/items/item[@name='meleeWpnClubT1BaseballBat']/property[@name='RepairTools']"/>
 	<set xpath="/items/item[@name='meleeWpnClubT1BaseballBat']/effect_group[@name='meleeWpnClubT1BaseballBat']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
