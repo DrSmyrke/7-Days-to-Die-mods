@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<drsmyrke>	
+	<append xpath="/items/item[@name='drinkJarEmpty']">
+		<property name="ItemTypeIcon" value="explosion"/>
+		<property name="DisplayType" value="ammoGrenadeFire"/>
+		<property name="Class" value="ItemClassTimeBomb"/>
+		<property name="Meshfile" value="#Other/Items?Food/emptyJarPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Food/emptyJarPrefab.prefab"/>
+		<property name="HoldType" value="54"/>
+		<property name="AlwaysActive" value="true"/>
+		<property name="ExplodeOnHit" value="true"/>
+		<property name="StickPercent" value=".5"/>
+		<property name="ThrowableDecoy" value="true"/>
+		<!--
+		<property name="Explosion.ParticleIndex" value="0"/> NONE
+		1-acid boom
+		2-boom
+		3-acid barell
+		4-boom car
+		5-boom fire
+		6-boom fire 2
+		7-mini acid !!!
+		8-cop boom
+		9-bomb boom
+		10-coctail fire
+		11-mine bomb
+		12-mine bomb 2
+		13-mine bomb 3
+		14-barell fuel bomb
+		15-barell fuel bomb 2
+		16-barell fuel bomb 3
+		!-->
+		<property name="Explosion.ParticleIndex" value="0"/>
+		<property name="Explosion.RadiusBlocks" value="1"/>
+		<property name="Explosion.RadiusEntities" value="1"/>
+		<property name="Explosion.Buff" value="triggerBleeding"/>
+		
+		<property class="Action0">
+			<property name="Class" value="ThrowAway"/>
+			<property name="Delay" value="1.2"/>
+			<property name="Explosion.ParticleIndex" value="1"/>
+			<property name="Throw_strength_default" value="10"/>
+			<property name="Throw_strength_max" value="25"/>
+			<property name="Max_strain_time" value="0.75"/>
+			<property name="Sound_start" value="swoosh"/>
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+		</property>
+		
+	</append>
+	<!--
+	<append xpath="/items/item[@name='drinkJarRiverWater']">
+		<property name="HoldType" value="34"/>
+		<property class="Action1">
+			<property name="Class" value="ThrowAway"/>
+			<property name="Delay" value="1.0"/>
+			<property name="Create_item" value="drinkJarEmpty"/>
+			<property name="Sound_start" value="bucketplace_water"/>			
+		</property>
+	</append>
+	!-->
+</drsmyrke>
