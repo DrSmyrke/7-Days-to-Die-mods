@@ -48,15 +48,23 @@
 		</property>
 		
 	</append>
-	<!--
+	
 	<append xpath="/items/item[@name='drinkJarRiverWater']">
-		<property name="HoldType" value="34"/>
-		<property class="Action1">
-			<property name="Class" value="ThrowAway"/>
+		<property name="HoldType" value="3"/>
+		<property class="Action1"> <!-- UseAction -->
+			<property name="Class" value="ExchangeItem"/>
 			<property name="Delay" value="1.0"/>
-			<property name="Create_item" value="drinkJarEmpty"/>
-			<property name="Sound_start" value="bucketplace_water"/>			
+			<property name="Change_item_to" value="drinkJarEmpty"/>
+			<!--<property name="Do_block_action" value="deplete1"/>!-->
+			<property name="Focused_blockname_1" value="terrDirt"/>
+			<property name="Focused_blockname_2" value="terrForestGround"/>
+			<property name="Focused_blockname_3" value="terrBurntForestGround"/>
+			<property name="Focused_blockname_4" value="terrDesertGround"/>
+			<property name="Focused_blockname_5" value="terrSand"/>
+			<property name="Focused_blockname_6" value="terrSandStone"/>
+			<property name="Focused_blockname_7" value="terrSnow"/>
+			<property name="Sound_start" value="bucketfill_water"/>
 		</property>
 	</append>
-	!-->
+	
 </drsmyrke>
