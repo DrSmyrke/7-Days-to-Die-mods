@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<drsmyrke>
+	<!--		Vehicle health			-->
+	
+	<set xpath="/items/item[@name='vehicleBicyclePlaceable']/effect_group[@name='vehicleBicyclePlaceable']/passive_effect[@name='DegradationMax']/@value">150</set>
+	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/effect_group[@name='vehicleMinibikePlaceable']/passive_effect[@name='DegradationMax']/@value">300</set>
+	<set xpath="/items/item[@name='vehicleMotorcyclePlaceable']/effect_group[@name='vehicleMotorcyclePlaceable']/passive_effect[@name='DegradationMax']/@value">1500</set>
+	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/effect_group[@name='vehicle4x4TruckPlaceable']/passive_effect[@name='DegradationMax']/@value">2700</set>
+	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/effect_group[@name='vehicleGyrocopterPlaceable']/passive_effect[@name='DegradationMax']/@value">300</set>
+	
+</drsmyrke>

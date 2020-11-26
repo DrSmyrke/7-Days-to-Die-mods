@@ -27,11 +27,18 @@
 	<set xpath="/items/item[@name='ammo9mmBulletHP']/effect_group[@name='ammo9mmBulletHP']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">83.2</set>
 	<set xpath="/items/item[@name='ammo9mmBulletAP']/effect_group[@name='ammo9mmBulletAP']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">64</set>
 	<set xpath="/items/item[@name='ammo44MagnumBulletBall']/effect_group[@name='ammo44MagnumBulletBall']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">130</set>
-	<set xpath="/items/item[@name='ammo44MagnumBulletHP']/effect_group[@name='ammo44MagnumBulletHP']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">169</set>
+
 	<set xpath="/items/item[@name='ammo44MagnumBulletAP']/effect_group[@name='ammo44MagnumBulletAP']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">160</set>
 	
-	<set xpath="/items/item[@name='ammo762mmBulletBall']/effect_group[@name='ammo762mmBulletBall']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">100</set>
-	<set xpath="/items/item[@name='ammo762mmBulletBall']/effect_group[@name='ammo762mmBulletBall']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">32</set>
+	<append xpath="/items/item[@name='ammo44MagnumBulletHP']/effect_group[@name='ammo44MagnumBulletHP']">
+		<passive_effect name="EntityDamage" operation="base_add" value="120" tags="perkDeadEye,perkMachineGunner"/>
+		<passive_effect name="BlockDamage" operation="base_add" value="6" tags="perkDeadEye,perkMachineGunner"/>
+	</append>
+	
+	<append xpath="/items/item[@name='ammo762mmBulletBall']/effect_group[@name='ammo762mmBulletBall']">
+		<passive_effect name="EntityDamage" operation="base_add" value="100" tags="perkDeadEye,perkMachineGunner"/>
+		<passive_effect name="BlockDamage" operation="base_add" value="16" tags="perkDeadEye,perkMachineGunner"/>
+	</append>
 	
 	<set xpath="/items/item[@name='ammo762mmBulletHP']/effect_group[@name='ammo762mmBulletHP']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">130</set>
 	<set xpath="/items/item[@name='ammo762mmBulletHP']/effect_group[@name='ammo762mmBulletHP']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">16</set>
@@ -91,18 +98,5 @@
 	<set xpath="/items/item[@name='ammoProjectileZombieVomitFeral']/property[@class='Action1']/property[@name='DamageBlock']/@value">24</set>
 	<set xpath="/items/item[@name='ammoProjectileZombieVomitRadiated']/property[@class='Action1']/property[@name='DamageEntity']/@value">100</set>
 	<set xpath="/items/item[@name='ammoProjectileZombieVomitRadiated']/property[@class='Action1']/property[@name='DamageBlock']/@value">12</set>
-	
-	
-
-	
-	<!--
-		Vehicle
-	-->
-	
-	<set xpath="/items/item[@name='vehicleBicyclePlaceable']/effect_group[@name='vehicleBicyclePlaceable']/passive_effect[@name='DegradationMax']/@value">150</set>
-	<set xpath="/items/item[@name='vehicleMinibikePlaceable']/effect_group[@name='vehicleMinibikePlaceable']/passive_effect[@name='DegradationMax']/@value">300</set>
-	<set xpath="/items/item[@name='vehicleMotorcyclePlaceable']/effect_group[@name='vehicleMotorcyclePlaceable']/passive_effect[@name='DegradationMax']/@value">1500</set>
-	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/effect_group[@name='vehicle4x4TruckPlaceable']/passive_effect[@name='DegradationMax']/@value">2700</set>
-	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/effect_group[@name='vehicleGyrocopterPlaceable']/passive_effect[@name='DegradationMax']/@value">300</set>
 	
 </drsmyrke>

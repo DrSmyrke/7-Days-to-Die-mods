@@ -13,4 +13,52 @@
 		</recipe>
 	</append>
 	
+	<set xpath="/recipes/recipe[@name='resourceBulletTip']/ingredient[@name='unit_lead']/@count">4</set>
+	<set xpath="/recipes/recipe[@name='resourceBuckshot']/ingredient[@name='unit_lead']/@count">6</set>
+	<set xpath="/recipes/recipe[@name='resourceBulletCasing']/ingredient[@name='unit_brass']/@count">10</set>
+	
+	
+	<set xpath="/recipes/recipe[@name='ammo9mmBulletBall']/ingredient[@name='resourceGunPowder']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle9mmBulletBall']/ingredient[@name='resourceGunPowder']/@count">800</set>
+	<set xpath="/recipes/recipe[@name='ammo9mmBulletHP']/ingredient[@name='resourceGunPowder']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle9mmBulletHP']/ingredient[@name='resourceGunPowder']/@count">800</set>
+	<set xpath="/recipes/recipe[@name='ammo9mmBulletAP']/ingredient[@name='resourceGunPowder']/@count">20</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle9mmBulletAP']/ingredient[@name='resourceGunPowder']/@count">1600</set>
+	
+	<set xpath="/recipes/recipe[@name='ammo44MagnumBulletBall']/ingredient[@name='resourceGunPowder']/@count">20</set>
+	<set xpath="/recipes/recipe[@name='ammo44MagnumBulletBall']/ingredient[@name='resourceBulletCasing']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletBall']/ingredient[@name='resourceGunPowder']/@count">1600</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletBall']/ingredient[@name='resourceBulletCasing']/@count">180</set>
+	
+	<set xpath="/recipes/recipe[@name='ammo44MagnumBulletHP']/ingredient[@name='resourceGunPowder']/@count">20</set>
+	<set xpath="/recipes/recipe[@name='ammo44MagnumBulletHP']/ingredient[@name='resourceBulletCasing']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletHP']/ingredient[@name='resourceGunPowder']/@count">1600</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletHP']/ingredient[@name='resourceBulletCasing']/@count">180</set>
+	
+	<set xpath="/recipes/recipe[@name='ammo44MagnumBulletAP']/ingredient[@name='resourceGunPowder']/@count">30</set>
+	<set xpath="/recipes/recipe[@name='ammo44MagnumBulletAP']/ingredient[@name='resourceBulletCasing']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletAP']/ingredient[@name='resourceGunPowder']/@count">2400</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletAP']/ingredient[@name='resourceBulletCasing']/@count">180</set>
+	
+	<set xpath="/recipes/recipe[@name='ammo762mmBulletBall']/ingredient[@name='resourceGunPowder']/@count">30</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle762mmBulletBall']/ingredient[@name='resourceGunPowder']/@count">2400</set>
+	
+	<set xpath="/recipes/recipe[@name='ammo762mmBulletHP']/ingredient[@name='resourceGunPowder']/@count">30</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle762mmBulletHP']/ingredient[@name='resourceGunPowder']/@count">2400</set>
+	
+	<set xpath="/recipes/recipe[@name='ammo762mmBulletAP']/ingredient[@name='resourceGunPowder']/@count">50</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle762mmBulletAP']/ingredient[@name='resourceGunPowder']/@count">4000</set>
+
+	<set xpath="/recipes/recipe[@name='ammoBlunderbuss']/ingredient[@name='resourceGunPowder']/@count">4</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleBlunderbuss']/ingredient[@name='resourceGunPowder']/@count">280</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoShotgunShell']/ingredient[@name='resourceGunPowder']/@count">40</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunShell']/ingredient[@name='resourceGunPowder']/@count">3200</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoShotgunSlug']/ingredient[@name='resourceGunPowder']/@count">40</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunSlug']/ingredient[@name='resourceGunPowder']/@count">3200</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']/ingredient[@name='resourceGunPowder']/@count">40</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunSlug']/ingredient[@name='resourceGunPowder']/@count">3200</set>
+	
 </drsmyrke>
