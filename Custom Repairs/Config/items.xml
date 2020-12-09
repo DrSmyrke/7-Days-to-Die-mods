@@ -269,6 +269,9 @@
 	<remove xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='RepairTools']"/>
 	
 	
+	<!--	REPAIR kit	-->
+	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='RepairAmount']/@value">320</set>
+	
 	<!--	Test	-->
 
 </drsmyrke>
