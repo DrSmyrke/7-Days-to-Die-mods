@@ -13,6 +13,26 @@
 		</recipe>
 	</append>
 	
+	
+	<!-- Weapon -->
+	<set xpath="/recipes/recipe[@name='autoTurret']/ingredient[@name='gunHandgunT1PistolParts']/@count">12</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT1Pistol']/ingredient[@name='gunHandgunT1PistolParts']/@count">12</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT2Magnum44']/ingredient[@name='gunHandgunT1PistolParts']/@count">15</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT3DesertVulture']/ingredient[@name='gunHandgunT1PistolParts']/@count">25</set>
+	
+	<set xpath="/recipes/recipe[@name='gunMGT1AK47']/ingredient[@name='gunMGT1AK47Parts']/@count">20</set>
+	<set xpath="/recipes/recipe[@name='gunMGT2TacticalAR']/ingredient[@name='gunMGT1AK47Parts']/@count">25</set>
+	<set xpath="/recipes/recipe[@name='gunMGT3M60']/ingredient[@name='gunMGT1AK47Parts']/@count">30</set>
+	
+	<set xpath="/recipes/recipe[@name='gunRifleT1HuntingRifle']/ingredient[@name='gunRifleT1HuntingRifleParts']/@count">20</set>
+	<set xpath="/recipes/recipe[@name='gunRifleT2MarksmanRifle']/ingredient[@name='gunRifleT1HuntingRifleParts']/@count">25</set>
+	<set xpath="/recipes/recipe[@name='gunRifleT3SniperRifle']/ingredient[@name='gunRifleT1HuntingRifleParts']/@count">30</set>
+	
+	<set xpath="/recipes/recipe[@name='gunShotgunT1DoubleBarrel']/ingredient[@name='gunShotgunT1DoubleBarrelParts']/@count">20</set>
+	<set xpath="/recipes/recipe[@name='gunShotgunT2PumpShotgun']/ingredient[@name='gunShotgunT1DoubleBarrelParts']/@count">25</set>
+	<set xpath="/recipes/recipe[@name='gunShotgunT3AutoShotgun']/ingredient[@name='gunShotgunT1DoubleBarrelParts']/@count">30</set>
+	
+	<!-- Ammo -->
 	<set xpath="/recipes/recipe[@name='resourceBulletTip']/ingredient[@name='unit_lead']/@count">4</set>
 	<set xpath="/recipes/recipe[@name='resourceBuckshot']/ingredient[@name='unit_lead']/@count">6</set>
 	<set xpath="/recipes/recipe[@name='resourceBulletCasing']/ingredient[@name='unit_brass']/@count">10</set>
