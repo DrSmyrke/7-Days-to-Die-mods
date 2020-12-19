@@ -259,6 +259,10 @@
 		<property name="RepairTools" value="meleeToolAllSteelParts"/>
 	</append>
 	
+	<append xpath="/items/item[@name='meleeToolSalvageT2Ratchet']">
+		<property name="RepairTools" value="meleeToolAllSteelParts"/>
+	</append>
+	
 	<set xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammer']/property[@name='RepairTools']/@value">meleeWpnSledgeT3SteelSledgehammerParts</set>
 	
 	<!--	Not repair	-->
