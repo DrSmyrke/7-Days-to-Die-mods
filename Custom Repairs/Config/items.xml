@@ -252,6 +252,7 @@
 	
 	
 	
+	<set xpath="/items/item[@name='meleeToolShovelT1IronShovel']/property[@name='RepairTools']/@value">resourceForgedIron</set>
 	<set xpath="/items/item[@name='meleeToolShovelT2SteelShovel']/property[@name='RepairTools']/@value">meleeToolAllSteelParts</set>
 	<set xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']/property[@name='RepairTools']/@value">meleeToolAllSteelParts</set>
 	
@@ -269,7 +270,6 @@
 	<remove xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@name='RepairTools']"/>
 	<remove xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']/property[@name='RepairTools']"/>
 	<remove xpath="/items/item[@name='meleeToolPickT1IronPickaxe']/property[@name='RepairTools']"/>
-	<remove xpath="/items/item[@name='meleeToolShovelT1IronShovel']/property[@name='RepairTools']"/>
 	<remove xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='RepairTools']"/>
 	
 	
