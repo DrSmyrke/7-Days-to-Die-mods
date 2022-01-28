@@ -35,7 +35,7 @@
 	<set xpath="/items/item[@name='ammoShotgunShell']/property[@name='EconomicValue']/@value">110</set>
 	<set xpath="/items/item[@name='ammoShotgunSlug']/property[@name='EconomicValue']/@value">200</set>
 	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/property[@name='EconomicValue']/@value">200</set>
-	<set xpath="/items/item[@name='ammoBlunderbuss']/property[@name='EconomicValue']/@value">10</set>
+	<!-- <set xpath="/items/item[@name='ammoBlunderbuss']/property[@name='EconomicValue']/@value">10</set> -->
 	
 	<append xpath="/items/item[@name='ammo9mmBulletBall']/effect_group[@name='ammo9mmBulletBall']">
 		<passive_effect name="EntityDamage" operation="base_add" value="10" tags="perkGunslinger,revolver"/>
@@ -97,10 +97,10 @@
 		<passive_effect name="BlockDamage" operation="base_add" value="100" tags="perkBoomstick"/>
 	</append>
 	
-	<append xpath="/items/item[@name='ammoBlunderbuss']/effect_group[@name='ammoBlunderbuss']">
+	<!-- <append xpath="/items/item[@name='ammoBlunderbuss']/effect_group[@name='ammoBlunderbuss']">
 		<passive_effect name="EntityDamage" operation="base_add" value="5" tags="perkBoomstick"/>
 		<passive_effect name="BlockDamage" operation="base_add" value="1" tags="perkBoomstick"/>
-	</append>
+	</append> -->
 	
 	<append xpath="/items/item[@name='ammoJunkTurretRegular']/effect_group[@name='ammoJunkTurretRegular']">
 		<passive_effect name="EntityDamage" operation="base_add" value="7" tags="perkBoomstick"/>
@@ -120,7 +120,7 @@
 	<!--
 		Zombie
 	-->
-	<set xpath="/items/item[@name='meleeHandZombie01']/property[@class='Action0']/property[@name='DamageEntity']/@value">30</set>
+	<!-- <set xpath="/items/item[@name='meleeHandZombie01']/property[@class='Action0']/property[@name='DamageEntity']/@value">30</set>
 	<set xpath="/items/item[@name='meleeHandZombie01']/effect_group[@name='meleeHandZombie01']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">30</set>
 	<set xpath="/items/item[@name='meleeHandZombieFeral']/property[@class='Action0']/property[@name='DamageEntity']/@value">60</set>
 	<set xpath="/items/item[@name='meleeHandZombie02Feral']/property[@class='Action0']/property[@name='DamageEntity']/@value">60</set>
@@ -154,6 +154,6 @@
 	<set xpath="/items/item[@name='ammoProjectileZombieVomitFeral']/property[@class='Action1']/property[@name='DamageEntity']/@value">80</set>
 	<set xpath="/items/item[@name='ammoProjectileZombieVomitFeral']/property[@class='Action1']/property[@name='DamageBlock']/@value">24</set>
 	<set xpath="/items/item[@name='ammoProjectileZombieVomitRadiated']/property[@class='Action1']/property[@name='DamageEntity']/@value">100</set>
-	<set xpath="/items/item[@name='ammoProjectileZombieVomitRadiated']/property[@class='Action1']/property[@name='DamageBlock']/@value">12</set>
+	<set xpath="/items/item[@name='ammoProjectileZombieVomitRadiated']/property[@class='Action1']/property[@name='DamageBlock']/@value">12</set> -->
 	
 </drsmyrke>

@@ -39,6 +39,6 @@
 	</set>
 	-->
 	
-	<set xpath="/buffs/buff[@name='buffInfectionMain'][@name_key='buff Infection Main']/update_rate/@value">.05</set>
+	<!-- <set xpath="/buffs/buff[@name='buffInfectionMain'][@name_key='buff Infection Main']/update_rate/@value">.05</set> -->
 	
 </drsmyrke>

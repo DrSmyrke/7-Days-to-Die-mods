@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <drsmyrke>
-
-	<!--<remove xpath="/blocks/block[@name='cntStorageChest']" />
-	<remove xpath="/blocks/block[@name='cntSecureStorageChest']" />
-	<remove xpath="/blocks/block[@name='cntLootChestHero']" />
-	<remove xpath="/blocks/block[@name='cntLootChestHeroInsecure']" />-->
-	
 	<!-- Пистолеты -->
 	<append xpath="/items/item[@name='gunHandgunT1PistolParts']">
 		<property name="RepairTime" value="40"/>
@@ -27,21 +21,7 @@
 	<set xpath="/items/item[@name='gunHandgunT3DesertVulture']/effect_group[@name='gunHandgunT3DesertVulture']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
 	
-	<!-- Дробовики -->
-	<append xpath="/items/item[@name='gunShotgunT1DoubleBarrelParts']">
-		<property name="RepairTime" value="40"/>
-		<property name="RepairAmount" value="64"/>
-		<!--<property name="Group" value="Resources"/>-->
-	</append>
 	
-	<set xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/property[@name='RepairTools']/@value">gunShotgunT1DoubleBarrelParts</set>
-	<set xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/effect_group[@name='gunShotgunT1DoubleBarrel']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
-	
-	<set xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@name='RepairTools']/@value">gunShotgunT1DoubleBarrelParts</set>
-	<set xpath="/items/item[@name='gunShotgunT2PumpShotgun']/effect_group[@name='gunShotgunT2PumpShotgun']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
-	
-	<set xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@name='RepairTools']/@value">gunShotgunT1DoubleBarrelParts</set>
-	<set xpath="/items/item[@name='gunShotgunT3AutoShotgun']/effect_group[@name='gunShotgunT3AutoShotgun']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
 	
 	<!-- Винтовки -->
@@ -54,8 +34,8 @@
 	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@name='RepairTools']/@value">gunRifleT1HuntingRifleParts</set>
 	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/effect_group[@name='gunRifleT1HuntingRifle']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
-	<set xpath="/items/item[@name='gunRifleT2MarksmanRifle']/property[@name='RepairTools']/@value">gunRifleT1HuntingRifleParts</set>
-	<set xpath="/items/item[@name='gunRifleT2MarksmanRifle']/effect_group[@name='gunRifleT2MarksmanRifle']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
+	<!-- <set xpath="/items/item[@name='gunRifleT2MarksmanRifle']/property[@name='RepairTools']/@value">gunRifleT1HuntingRifleParts</set> -->
+	<!-- <set xpath="/items/item[@name='gunRifleT2MarksmanRifle']/effect_group[@name='gunRifleT2MarksmanRifle']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
 	
 	<set xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@name='RepairTools']/@value">gunRifleT1HuntingRifleParts</set>
 	<set xpath="/items/item[@name='gunRifleT3SniperRifle']/effect_group[@name='gunRifleT3SniperRifle']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
@@ -87,8 +67,23 @@
 	
 	<set xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@name='RepairTools']/@value">gunExplosivesT3RocketLauncherParts</set>
 	<set xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/effect_group[@name='gunExplosivesT3RocketLauncher']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
+
+	<!-- Дробовики -->
+	<append xpath="/items/item[@name='gunShotgunT1DoubleBarrelParts']">
+		<property name="RepairTime" value="40"/>
+		<property name="RepairAmount" value="64"/>
+		<!--<property name="Group" value="Resources"/>-->
+	</append>
 	
+	<set xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/property[@name='RepairTools']/@value">gunShotgunT1DoubleBarrelParts</set>
+	<set xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/effect_group[@name='gunShotgunT1DoubleBarrel']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
+	<set xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@name='RepairTools']/@value">gunShotgunT1DoubleBarrelParts</set>
+	<set xpath="/items/item[@name='gunShotgunT2PumpShotgun']/effect_group[@name='gunShotgunT2PumpShotgun']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
+	
+	<set xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@name='RepairTools']/@value">gunShotgunT1DoubleBarrelParts</set>
+	<set xpath="/items/item[@name='gunShotgunT3AutoShotgun']/effect_group[@name='gunShotgunT3AutoShotgun']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
+
 	<!-- Луки, Арбалеты -->
 	<append xpath="/items/item[@name='gunBowT1WoodenBowParts']">
 		<property name="RepairTime" value="10"/>
@@ -133,7 +128,18 @@
 	<append xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']">
 		<property name="RepairTools" value="meleeWpnSpearT3SteelSpearParts"/>
 	</append>
-	
+
+	<!--	Мачете	-->
+	<append xpath="/items/item[@name='meleeWpnBladeT3MacheteParts']">
+		<property name="RepairTime" value="10"/>
+		<property name="RepairAmount" value="64"/>
+		<!--<property name="Group" value="Resources"/>-->
+	</append>
+	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='RepairTools']/@value">meleeWpnBladeT3MacheteParts</set>
+
+	<!--	Нож	-->
+	<set xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/property[@name='RepairTools']/@value">resourceForgedIron</set>
+
 	<!-- Биты -->
 	
 	<append xpath="/items/item[@name='meleeWpnClubT3SteelClubParts']">
@@ -181,8 +187,8 @@
 	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group[@name='meleeWpnBatonT2StunBaton']/passive_effect[@name='DegradationMax'][@operation='base_set']/@value">750,1800</set>
 	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group[@name='meleeWpnBatonT2StunBaton']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">1.5</set>
 	
-	<set xpath="/items/item[@name='meleeWpnBatonT3PlasmaBaton']/property[@name='RepairTools']/@value">meleeWpnBatonT2StunBatonParts</set>
-	<set xpath="/items/item[@name='meleeWpnBatonT3PlasmaBaton']/effect_group[@name='meleeWpnBatonT3PlasmaBaton']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">1.5</set>
+	<!-- <set xpath="/items/item[@name='meleeWpnBatonT3PlasmaBaton']/property[@name='RepairTools']/@value">meleeWpnBatonT2StunBatonParts</set> -->
+	<!-- <set xpath="/items/item[@name='meleeWpnBatonT3PlasmaBaton']/effect_group[@name='meleeWpnBatonT3PlasmaBaton']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">1.5</set> -->
 	
 	
 	
@@ -204,16 +210,6 @@
 	-->
 	
 	
-	
-	<!--	Мачете	-->
-	<append xpath="/items/item[@name='meleeWpnBladeT3MacheteParts']">
-		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="64"/>
-		<!--<property name="Group" value="Resources"/>-->
-	</append>
-	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='RepairTools']/@value">meleeWpnBladeT3MacheteParts</set>
-	
-	
 	<!--	Ресурсы	-->
 	<append xpath="/items/item[@name='resourceScrapIron']">
 		<property name="RepairTime" value="5"/>
@@ -226,6 +222,10 @@
 	<append xpath="/items/item[@name='resourceLeather']">
 		<property name="RepairTime" value="20"/>
 		<property name="RepairAmount" value="8"/>
+	</append>
+	<append xpath="/items/item[@name='resourceForgedIron']">
+		<property name="RepairTime" value="30"/>
+		<property name="RepairAmount" value="24"/>
 	</append>
 	<append xpath="/items/item[@name='resourceForgedSteel']">
 		<property name="RepairTime" value="40"/>
@@ -271,6 +271,7 @@
 	<remove xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']/property[@name='RepairTools']"/>
 	<remove xpath="/items/item[@name='meleeToolPickT1IronPickaxe']/property[@name='RepairTools']"/>
 	<remove xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='RepairTools']"/>
+	<!-- <remove xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/property[@name='resourceBone']"/> -->
 	
 	
 	<!--	REPAIR kit	-->
