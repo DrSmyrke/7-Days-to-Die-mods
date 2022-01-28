@@ -225,15 +225,15 @@
 	</append>
 	<append xpath="/items/item[@name='resourceForgedIron']">
 		<property name="RepairTime" value="30"/>
-		<property name="RepairAmount" value="24"/>
+		<property name="RepairAmount" value="50"/>
 	</append>
 	<append xpath="/items/item[@name='resourceForgedSteel']">
 		<property name="RepairTime" value="40"/>
-		<property name="RepairAmount" value="32"/>
+		<property name="RepairAmount" value="73"/>
 	</append>
 	<append xpath="/items/item[@name='meleeToolAllSteelParts']">
 		<property name="RepairTime" value="60"/>
-		<property name="RepairAmount" value="64"/>
+		<property name="RepairAmount" value="128"/>
 	</append>
 	<append xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']">
 		<property name="RepairTime" value="80"/>
