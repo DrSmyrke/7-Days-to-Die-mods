@@ -6,6 +6,9 @@
 	-->
 	<set xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group[@name='meleeWpnBladeT0BoneKnife']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">15</set>
 	<set xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage'][@operation='base_add']/@value">9.1</set>
+
+
+
 	
 	<set xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/effect_group[@name='meleeWpnBladeT1HuntingKnife']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">26</set>
 	<set xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage'][@operation='base_add']/@value">16</set>
@@ -155,5 +158,47 @@
 	<set xpath="/items/item[@name='ammoProjectileZombieVomitFeral']/property[@class='Action1']/property[@name='DamageBlock']/@value">24</set>
 	<set xpath="/items/item[@name='ammoProjectileZombieVomitRadiated']/property[@class='Action1']/property[@name='DamageEntity']/@value">100</set>
 	<set xpath="/items/item[@name='ammoProjectileZombieVomitRadiated']/property[@class='Action1']/property[@name='DamageBlock']/@value">12</set> -->
+
+
+
+	<!--
+		Undead legacy mod
+	-->
+	<set xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">15</set>
+
+	<set xpath="/items/item[@name='gunRifleT0PipeRifle']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">120</set>
+	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">130</set>
+	<set xpath="/items/item[@name='gunRifleT2LeverActionRifle']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">140</set>
+	<set xpath="/items/item[@name='gunRifleT3SniperRifle']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">160</set>
+
+	<set xpath="/items/item[@name='gunMGT0PipeMachineGun']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">60</set>
+	<set xpath="/items/item[@name='gunMGT1AK47']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">76</set>
+	<set xpath="/items/item[@name='gunMGT2TacticalAR']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">80</set>
+	<set xpath="/items/item[@name='gunMGT3M60']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">80</set>
+
+	<set xpath="/items/item[@name='gunHandgunT0PipePistol']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">56</set>
+	<set xpath="/items/item[@name='gunHandgunT1Pistol']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">64</set>
+	<set xpath="/items/item[@name='gunHandgunT2Magnum44']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">140</set>
+	<set xpath="/items/item[@name='gunHandgunT3SMG5']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">72</set>
+
+	<set xpath="/items/item[@name='ammoShotgunShell']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">66</set>
+	<set xpath="/items/item[@name='ammoShotgunShell']/effect_group/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">30</set>
+	<set xpath="/items/item[@name='ammoShotgunSlug']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">270</set>
+	<set xpath="/items/item[@name='ammoShotgunSlug']/effect_group/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">220</set>
+	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">270</set>
+	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/effect_group/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">220</set>
+	
+	<set xpath="/items/item[@name='ulmGunKineticAssaultRifleAug1']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">80</set>
+	<set xpath="/items/item[@name='ulmGunKineticAssaultRifleFamas1']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">80</set>
+	<set xpath="/items/item[@name='ulmGunKineticMicroSmg']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">68</set>
+	<set xpath="/items/item[@name='ulmGunKineticR90']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">72</set>
+	<set xpath="/items/item[@name='ulmGunKineticSniperRifleM1A']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">150</set>
+	<set xpath="/items/item[@name='ulmGunKineticUMP']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">72</set>
+	<set xpath="/items/item[@name='ulmGunKineticMinigun']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">68</set>
+	<set xpath="/items/item[@name='ulmGunKineticPistolGlock']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">50</set>
+	<set xpath="/items/item[@name='ulmGunKineticPistolDesertEagle']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">130</set>
+	<set xpath="/items/item[@name='ulmGunKineticPistolMakarov']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">45</set>
+	<set xpath="/items/item[@name='ulmGunKineticRevolverBugert9mm']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">50</set>
+	<set xpath="/items/item[@name='ulmGunKineticRevolverBugert38Cal']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">100</set>
 	
 </drsmyrke>
