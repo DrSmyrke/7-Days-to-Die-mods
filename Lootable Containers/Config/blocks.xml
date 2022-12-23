@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<drsmyrke>
+
+	<append xpath="//block[@name='palletBrownBoxesBase']">
+		<property name="Class" value="Loot"/>
+		<property name="LootList" value="cardboardBox"/>
+	</append>
+	<!-- <set xpath="//block[@name='palletBrownBoxesBase']"> -->
+	<!-- <set xpath="/blocks/block[@name='palletBrownBoxesBase']">
+		<property name="FilterTags" value=/>
+		<property name="DescriptionKey" value=""/>
+	</set> -->
+	<!-- <set xpath="/blocks/block[@name='palletBrownBoxesBase']/property[@name='FilterTags']/@value">"MC_building,SC_commercial,SC_construction,SC_decor,SC_loot"</set>
+	<set xpath="/blocks/block[@name='palletBrownBoxesBase']/property[@name='DescriptionKey']/@value">creativeMenuBlockGroupDesc</set> -->
+
+</drsmyrke>
