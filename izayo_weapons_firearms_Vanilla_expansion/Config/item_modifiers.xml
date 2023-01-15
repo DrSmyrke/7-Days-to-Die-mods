@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<addnew>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunShotgunTubeExtenderMagazine']">
+		<item_property_overrides name="Mossbull 12">
+			<property name="Meshfile" value="#@modfolder:Resources/mossbull12.unity3d?Mossbull12_long.Prefab"/>
+		</item_property_overrides>
+	</append>
+		
+	<append xpath="/item_modifiers/item_modifier[@name='modGunMagazineExtender']">
+		<item_property_overrides name="T2akmTBrifle">
+			<property name="Meshfile" value="#@modfolder:Resources/AKMTB.unity3d?AKMTB_mag.Prefab"/>
+		</item_property_overrides>
+	</append>
+
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+		<item_property_overrides name="Mossbull 12">
+			<property name="ScopeCameraOffset" value=".0013,-.0063,0"/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T2shotgun870police">
+			<property name="ScopeCameraOffset" value="0,-.0164,.005"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T3shotgunM4terminator">
+			<property name="ScopeCameraOffset" value="0,-.004,.3"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T4shotgunsaika12">
+			<property name="ScopeCameraOffset" value="0,-.039,.37"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T4magnum44Carbine">
+			<property name="ScopeCameraOffset" value="0,-.0112,.03"/>
+			<property name="Meshfile" value="#@modfolder:Resources/44carbine.unity3d?44carbine_reflex.Prefab"/>
+			<property name="CrosshairOnAim" value="false"/> <!-- aimTest -->
+			<property name="CrosshairUpAfterShot" value="false"/> <!-- aimTest -->
+		</item_property_overrides>
+		
+		<item_property_overrides name="T2akmTBrifle">
+			<property name="ScopeCameraOffset" value="-.00062,-.0055,.28"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T3rifleSR110">
+				<property name="ScopeCameraOffset" value="-.0002,-.0162,.05"/>
+				<property name="Meshfile" value="#@modfolder:Resources/SR110L.unity3d?SR110_reflex.prefab"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T1smgSMP40">
+			<property name="ScopeCameraOffset" value="-.00062,-.0041,.055"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T2pistolLock17">
+			<property name="ScopeCameraOffset" value="0,-.01,0"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Lock17.unity3d?Lock17_reflex.Prefab"/>
+		</item_property_overrides>
+	</append>
+
+<append xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']">
+		<item_property_overrides name="*">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Zoom_max_out" value="40"/>
+			<property name="Zoom_max_in" value="40"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="Mossbull 12">
+			<property name="ScopeCameraOffset" value=".0012,-.027,0"/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="T3shotgunM4terminator">
+			<property name="ScopeCameraOffset" value="0,-.012,.3"/>
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T4shotgunsaika12">
+			<property name="ScopeCameraOffset" value="0,-.039,.37"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T4magnum44Carbine">
+			<property name="ScopeCameraOffset" value="0,-.0115,.03"/>
+			<property name="Meshfile" value="#@modfolder:Resources/44carbine.unity3d?44carbine_reflex.Prefab"/>
+			<property name="CrosshairOnAim" value="false"/> <!-- aimTest -->
+			<property name="CrosshairUpAfterShot" value="false"/> <!-- aimTest -->
+		</item_property_overrides>
+		
+		<item_property_overrides name="T2akmTBrifle">
+			<property name="ScopeCameraOffset" value="-.00062,-.017,.28"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T3rifleSR110">
+				<property name="Zoom_max_out" value="25"/>
+				<property name="Zoom_max_in" value="25"/>
+				<property name="ScopeCameraOffset" value="0.0003,-.018,.05"/>
+				<property name="Meshfile" value="#@modfolder:Resources/SR110L.unity3d?SR110_reflex.prefab"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunHandgunT1Pistol">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunShotgunT2PumpShotgun">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunMGT3M60">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="gunMGT0PipeMachineGun">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="gunHandgunT0PipePistol">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="gunRifleT0PipeRifle">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunMGT1AK47">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunMGT2TacticalAR">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunHandgunT2Magnum44">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunHandgunT3SMG5">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunRifleT1HuntingRifle">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunRifleT2LeverActionRifle">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunExplosivesT3RocketLauncher">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunBowT1IronCrossbow">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="gunBowT3CompoundCrossbow">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="gunHandgunT3DesertVulture">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="gunRifleT3SniperRifle">
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+
+		<item_property_overrides name="T2shotgun870police">
+			<property name="Sound_start" value="saika12_silen_fire_S"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T3shotgunM4terminator">
+			<property name="Sound_start" value="m4ter_silen_fire"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T4shotgunsaika12">
+			<property name="Sound_start" value="saika12_silen_fire_S"/>
+			<property name="Sound_loop" value="saika12_silen_fire_S"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T2akmTBrifle">
+			<property name="Sound_start" value="AKMTB_silen_fire"/>
+			<property name="Sound_loop" value="AKMTB_silen_fire"/>
+			<property name="Sound_end" value="AKMTB_silen_end"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T3rifleSR110">
+			<property name="Sound_start" value="SR110_silen_fire"/>
+			<property name="Sound_loop" value="SR110_silen_fire"/>
+			<property name="Sound_end" value="SR110_silen_end"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T1smgSMP40">
+			<property name="Sound_start" value="SMP40_silen_fire"/>
+			<property name="Sound_loop" value="SMP40_silen_fire"/>
+			<property name="Sound_end" value="SMP40_silen_end"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="T2pistolLock17">
+			<property name="Sound_start" value="lock17_silen_fire_S"/>
+			<property name="Sound_loop" value="lock17_silen_fire"/>
+			<property name="Sound_end" value="lock17_silen_end"/>
+		</item_property_overrides>
+
+	</append>
+</addnew>

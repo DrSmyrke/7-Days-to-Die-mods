@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addnew>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT1']" >	
+		<item name="T1smgSMP40 Schematic" />
+		<item name="T2shotgun870police Schematic" />
+		<item name="T2akmTBrifle Schematic" />
+		<item name="T2pistolLock17 Schematic" />
+	</append>	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT2']" >	
+		<item name="T2shotgun870police Schematic" />
+		<item name="T3shotgunM4terminator Schematic" />
+		<item name="T4shotgunsaika12 Schematic" />
+		<item name="T4magnum44Carbine Schematic" />
+		<item name="T2akmTBrifle Schematic" />
+		<item name="T3rifleSR110 Schematic" />
+	</append>	
+
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='treasureAmmo']">
+
+
+		<lootgroup name="lock17+Ammo" count="all">
+			<item name="ammo9mmBulletBall" count="5,12"/>
+			<item name="T2pistolLock17"/>
+		</lootgroup>
+		
+		<lootgroup name="smp40+Ammo" count="all">
+			<item name="ammo9mmBulletBall" count="15,25"/>
+			<item name="T1smgSMP40"/>
+		</lootgroup>
+
+		<lootgroup name="akmTB+Ammo" count="all">
+			<item name="ammo762mmBulletBall" count="10,20"/>
+			<item name="T2akmTBrifle"/>
+		</lootgroup>
+
+		<lootgroup name="SR110+Ammo" count="all">
+			<item name="ammo762mmBulletBall" count="8,16"/>
+			<item name="T3rifleSR110"/>
+		</lootgroup>
+
+		<lootgroup name="magnum44Car+Ammo" count="all">
+			<item name="ammo44MagnumBulletBall" count="6,8"/>
+			<item name="T4magnum44Carbine"/>
+		</lootgroup>
+
+		<lootgroup name="saika+Ammo" count="all">
+			<item name="ammoShotgunShell" count="10,20"/>
+			<item name="T4shotgunsaika12"/>
+		</lootgroup>
+
+		<lootgroup name="m4ter+Ammo" count="all">
+			<item name="ammoShotgunShell" count="7,12"/>
+			<item name="T3shotgunM4terminator"/>
+		</lootgroup>
+		
+		<lootgroup name="870pol+Ammo" count="all">
+			<item name="ammoShotgunShell" count="7,10"/>
+			<item name="T2shotgun870police"/>
+		</lootgroup>
+
+		<lootgroup name="VEE+Ammo_T1" >
+			<item group="smp40+Ammo" />
+		</lootgroup>	
+
+		<lootgroup name="VEE+Ammo_T2" >
+			<item group="lock17+Ammo" />
+			<item group="akmTB+Ammo" />
+			<item group="870pol+Ammo" />			
+		</lootgroup>			
+		
+		<lootgroup name="VEE+Ammo_T3" >
+			<item group="SR110+Ammo" />
+			<item group="magnum44Car+Ammo"/>
+			<item group="m4ter+Ammo"/>
+			<item group="saika+Ammo"/>
+		</lootgroup>	
+
+	</insertBefore>	
+
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Ranged']" >	
+		<item group="VEE+Ammo_T1" />
+	</append>	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Ranged']" >	
+		<item group="VEE+Ammo_T2" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Ranged']" >	
+		<item group="VEE+Ammo_T3" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsRangedScaled']" >	
+		<item group="VEE+Ammo_T1" loot_prob_template="ProbT1"/>
+		<item group="VEE+Ammo_T2" loot_prob_template="ProbT2"/>
+		<item group="VEE+Ammo_T3" loot_prob_template="ProbT2"/>
+	</append>	
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsRangedScaledTPlus']" >	
+		<item group="VEE+Ammo_T1" loot_prob_template="ProbT1"/>
+		<item group="VEE+Ammo_T2" loot_prob_template="ProbT2"/>
+		<item group="VEE+Ammo_T3" loot_prob_template="ProbT2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsRangedScaledNoStone']" >	
+		<item group="VEE+Ammo_T1" loot_prob_template="ProbT1"/>
+		<item group="VEE+Ammo_T2" loot_prob_template="ProbT2"/>
+		<item group="VEE+Ammo_T3" loot_prob_template="ProbT2"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT1']" >	
+		<item name="T1smgSMP40" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT2']" >	
+		<item name="T2pistolLock17" />
+		<item name="T2akmTBrifle" />
+		<item name="T2shotgun870police" />
+	</append>	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT3']" >	
+		<item name="T3shotgunM4terminator" />
+		<item name="T4shotgunsaika12" />
+		<item name="T4magnum44Carbine" />
+		<item name="T3rifleSR110" />
+	</append>		
+
+</addnew>

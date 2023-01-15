@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addnew>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT0']" >	
+		<item name="T0pistolwebleySchematic" />
+		<item name="T1pistolm1911Schematic" />
+		<item name="T0smgmac10Schematic" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT1']" >	
+		<item name="T1smgthompsonSchematic" />
+		<item name="T1pistolm1911Schematic" />
+	</append>	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT2']" >	
+		<item name="T1smgthompsonSchematic" />
+		<item name="T2smgsmpxSchematic" />
+		<item name="T2pistolmk23Schematic" />
+	</append>	
+
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='treasureAmmo']">
+
+		<lootgroup name="webley+Ammo" count="all">
+			<item name="T0pistolwebley"/>
+		</lootgroup>
+		
+		<lootgroup name="m1911+Ammo" count="all">
+			<item name="T1pistolm1911"/>
+		</lootgroup>
+
+		<lootgroup name="mk23+Ammo" count="all">
+			<item name="T2pistolmk23"/>
+		</lootgroup>
+
+		<lootgroup name="mac10+Ammo" count="all">
+			<item name="T0smgmac10"/>
+		</lootgroup>
+
+		<lootgroup name="thompson+Ammo" count="all">
+			<item name="T1smgthompson"/>
+		</lootgroup>
+
+		<lootgroup name="smpx+Ammo" count="all">
+			<item name="T2smgsmpx"/>
+		</lootgroup>
+
+		<lootgroup name="45Weapons+Ammo_T0" >
+			<item group="webley+Ammo" />
+			<item group="mac10+Ammo"/>
+		</lootgroup>
+
+		<lootgroup name="45Weapons+Ammo_T1" >
+			<item group="m1911+Ammo" />
+			<item group="thompson+Ammo"/>
+		</lootgroup>	
+
+		<lootgroup name="45Weapons+Ammo_T2" >
+			<item group="mk23+Ammo" />
+			<item group="smpx+Ammo"/>		
+		</lootgroup>			
+
+	</insertBefore>	
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_All']" >	
+		<item group="45Weapons+Ammo_T0" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Ranged']" >	
+		<item group="45Weapons+Ammo_T1" />
+	</append>	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Ranged']" >	
+		<item group="45Weapons+Ammo_T2" />
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsRangedScaled']" >	
+		<item group="45Weapons+Ammo_T0" loot_prob_template="ProbT0"/>
+		<item group="45Weapons+Ammo_T1" loot_prob_template="ProbT1"/>
+		<item group="45Weapons+Ammo_T2" loot_prob_template="ProbT2"/>
+	</append>	
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsRangedScaledTPlus']" >	
+		<item group="45Weapons+Ammo_T0" loot_prob_template="ProbT0"/>
+		<item group="45Weapons+Ammo_T1" loot_prob_template="ProbT1"/>
+		<item group="45Weapons+Ammo_T2" loot_prob_template="ProbT2"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupWeaponsRangedScaledNoStone']" >	
+		<item group="45Weapons+Ammo_T0" loot_prob_template="ProbT0"/>
+		<item group="45Weapons+Ammo_T1" loot_prob_template="ProbT1"/>
+		<item group="45Weapons+Ammo_T2" loot_prob_template="ProbT2"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT1']" >	
+		<item name="T0pistolwebley" />
+		<item name="T0smgmac10" />
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT2']" >	
+		<item name="T1pistolm1911" />
+		<item name="T1smgthompson" />
+	</append>	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT3']" >	
+		<item name="T2smgsmpx" />
+		<item name="T2pistolmk23" />
+	</append>	
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4_06']" >	
+		<item name="gunSTIE6Parts01" count="1" loot_prob_template="low"/>
+	</append>		
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4_07']" >	
+		<item name="gunSTIE6Parts02" count="1" loot_prob_template="low"/>
+	</append>		
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4_08']" >	
+		<item name="gunSTIE6Parts03" count="1" loot_prob_template="low"/>
+	</append>	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4_09']" >	
+		<item name="gunSTIE6Parts04" count="1" loot_prob_template="low"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5_03']" >	
+		<item name="gunSTIE6Parts01" count="1" loot_prob_template="low"/>
+	</append>		
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5_04']" >	
+		<item name="gunSTIE6Parts02" count="1" loot_prob_template="low"/>
+	</append>		
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5_05']" >	
+		<item name="gunSTIE6Parts03" count="1" loot_prob_template="low"/>
+	</append>	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5_06']" >	
+		<item name="gunSTIE6Parts04" count="1" loot_prob_template="low"/>
+	</append>
+
+</addnew>

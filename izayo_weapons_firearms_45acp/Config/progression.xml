@@ -1,0 +1,32 @@
+<addnew>
+
+	<append xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="T0pistolwebley"/>
+	</append> 
+	
+	<append xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="2" tags="T1pistolm1911"/>
+	</append> 
+	
+	<append xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="3" tags="T2pistolmk23"/>
+	</append> 
+	
+	<append xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="4" tags="T3pistolstie6b"/>
+		<passive_effect name="CraftingTier" operation="base_add" level="1,2,3,4,5" value="1,2,3,4,5" tags="T3pistolstie6b"/>
+	</append>
+	
+	<append xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="T0smgmac10"/>
+	</append> 
+	
+	<append xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="2" tags="T1smgthompson"/>
+	</append> 
+	
+	<append xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="3" tags="T2smgsmpx"/>
+	</append>
+
+</addnew>

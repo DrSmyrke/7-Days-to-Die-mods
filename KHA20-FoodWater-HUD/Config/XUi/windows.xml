@@ -54,14 +54,14 @@
 					<filledsprite depth="3" name="background" color="0,0,0,255" width="170" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
 				</rect>
 			
-				<rect width="85" height="43" pos="0,-150" controller="HUDStatBar" stat_type="Food" visible="{statvisible}">
+				<rect width="85" height="32" pos="0,-150" controller="HUDStatBar" stat_type="Food" visible="{statvisible}">
 					<sprite depth="1" name="border" color="0,0,0,128" type="sliced"/>
 
 					<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
 					<filledsprite depth="3" name="background" color="110,110,110,128" width="83" type="filled" fill="{statmodifiedmax}" />
 
 					<filledsprite depth="5" name="BarContent" color="0,128,0,150" width="83" type="filled" fill="0" />
-					<sprite depth="6" name="Icon" sprite="ui_game_symbol_hunger" size="32,32" pos="2,-6" foregroundlayer="true"/>
+					<sprite depth="6" name="Icon" sprite="ui_game_symbol_hunger" size="24,24" pos="2,-6" foregroundlayer="true"/>
 					<label depth="7" name="TextContent" pos="19,-8" font_size="20" color="[white]" justify="center" pivot="topleft" text="{statcurrent}%" height="30"/>					
 
 					<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
@@ -69,14 +69,14 @@
 					<filledsprite depth="3" name="background" color="0,0,0,255" width="84" fillcenter="false" type="filled" fill="{statmodifiedmax}" />
 				</rect>
 				
-				<rect width="85" height="43" pos="85,-150" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
+				<rect width="85" height="32" pos="85,-150" controller="HUDStatBar" stat_type="Water" visible="{statvisible}">
 					<sprite depth="1" name="border" color="0,0,0,128" type="sliced"/>
 
 					<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
 					<filledsprite depth="3" name="background" color="110,110,110,128" width="83" type="filled" fill="{statmodifiedmax}" />
 
 					<filledsprite depth="5" name="BarContent" color="64,164,223,150" width="83" type="filled" fill="0" />
-					<sprite depth="6" name="Icon" sprite="ui_game_symbol_water" size="32,32" pos="2,-6" foregroundlayer="true"/>
+					<sprite depth="6" name="Icon" sprite="ui_game_symbol_water" size="24,24" pos="2,-6" foregroundlayer="true"/>
 					<label depth="7" name="TextContent" pos="14,-8" font_size="20" color="[white]" justify="center" pivot="topleft" text="{statcurrent}%" height="30"/>
 
 					<sprite depth="8" name="border" color="0,0,0,255" type="sliced" fillcenter="false"/>
@@ -88,7 +88,7 @@
 			<rect name="hud" pos="90,160" side="left" controller="BuffPopoutList" pivot="BottomLeft" >
 				<panel width="168" height="46" name="item" visible="false" pivot="right" disableautobackground="true" pos="70, 0" style="press" sound="[recipe_click]" on_hover="true" >
 					<sprite depth="3" pos="0,0"  name="Background" sprite="ui_game_popup" height="46" width="162" pivot="center" flip="Horizontally" color="[transparent]" />
-					<sprite depth="4" name="Icon" size="24,24" pos="-54,0" pivot="center" color="[transparent]"/>
+					<sprite depth="4" name="Icon" size="32,32" pos="-54,0" pivot="center" color="[transparent]"/>
 					<label depth="6" name="TextContent" pos="0,0" font_size="28" color="[white]" justify="center" height="40" pivot="center"/>
 				</panel>
 			</rect>
