@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<drsmyrke>
-	<!-- <remove xpath="/recipes/recipe[@name='foodBoiledMeat']" />
-
-	<append xpath="/recipes/recipe[@name='foodBoiledMeat']">
-		<output name="drinkJarEmpty"/>
-	</append> -->
-</drsmyrke>
