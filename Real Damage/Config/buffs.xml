@@ -1,44 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <drsmyrke>
-	<!--
-		Infection !!!!
-	-->
-	<!--
-	<set xpath="/buffs/buff[@name='buffInfectionCatch'][@name_key='buff Infection Catch']/effect_group[@name='a chance to nope out of infection that is based on health']">
-		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".InfectionNope" operation="set" value="82.6">
+	<!--	Infection !!!!		-->
+	<append xpath="/buffs/buff[@name='buffInfectionMain'][@name_key='buff Infection Main']/effect_group[@name='main loop']">
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".infectionDisplayPerc" operation="set" value="82.6">
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GT" value=".95"/>
 		</triggered_effect>
-		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".InfectionNope" operation="set" value="77.2">
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".infectionDisplayPerc" operation="set" value="77.2">
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LTE" value=".95"/>
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GT" value=".90"/>
 		</triggered_effect>
-		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".InfectionNope" operation="set" value="66.4">
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".infectionDisplayPerc" operation="set" value="66.4">
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LTE" value=".90"/>
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GT" value=".85"/>
 		</triggered_effect>
-		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".InfectionNope" operation="set" value="55.6">
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".infectionDisplayPerc" operation="set" value="55.6">
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LTE" value=".85"/>
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GT" value=".80"/>
 		</triggered_effect>
-		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".InfectionNope" operation="set" value="44.8">
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".infectionDisplayPerc" operation="set" value="44.8">
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LTE" value=".80"/>
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GT" value=".70"/>
 		</triggered_effect>
-		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".InfectionNope" operation="set" value="33.2">
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".infectionDisplayPerc" operation="set" value="33.2">
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LTE" value=".70"/>
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GT" value=".60"/>
 		</triggered_effect>
-		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".InfectionNope" operation="set" value="21.6">
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".infectionDisplayPerc" operation="set" value="21.6">
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LTE" value=".60"/>
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GT" value=".50"/>
 		</triggered_effect>
-		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".InfectionNope" operation="set" value="10">
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".infectionDisplayPerc" operation="set" value="10">
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LTE" value=".50"/>
 		</triggered_effect>
-	</set>
-	-->
+	</append>
 	
-	<!-- <set xpath="/buffs/buff[@name='buffInfectionMain'][@name_key='buff Infection Main']/update_rate/@value">.05</set> -->
+	<set xpath="/buffs/buff[@name='buffInfectionMain'][@name_key='buff Infection Main']/update_rate/@value">.05</set>
 	
 </drsmyrke>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="Real damage" />
-		<Description value="This mod adds real damage." />
-		<Author value="Dr.Smyrke" />
-		<Version value="1.1" />
-	</ModInfo>
+	<Name value="Real_damage" />
+	<DisplayName value="Real damage" />
+	<Description value="This mod adds real damage." />
+	<Author value="Dr.Smyrke" />
+	<Version value="1.1" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
 </xml>

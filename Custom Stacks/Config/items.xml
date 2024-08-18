@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<drsmyrke>
+	<!-- Бинты -->
+	<set xpath="/items/item[@name='medicalBandage']/property[@name='Stacknumber']/@value">15</set>
+	<set xpath="/items/item[@name='medicalFirstAidBandage']/property[@name='Stacknumber']/@value">15</set>
+</drsmyrke>

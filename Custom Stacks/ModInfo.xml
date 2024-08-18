@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<Name value="Custom_repairs" />
-	<DisplayName value="Custom repairs" />
-	<Description value="This mod will change requirements to repair weapons." />
+	<Name value="Custom_stacks" />
+	<DisplayName value="Custom Stacks" />
+	<Description value="This mod will change stacks." />
 	<Author value="Dr.Smyrke" />
 	<Version value="1.0" />
 	<Website value="" />

@@ -17,11 +17,11 @@
 	<!--
 		Spear`s
 	-->
-	<set xpath="/items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group[@name='meleeWpnSpearT0StoneSpear']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">20</set>
+	<!-- <set xpath="/items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group[@name='meleeWpnSpearT0StoneSpear']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">20</set> -->
 	
-	<set xpath="/items/item[@name='meleeWpnSpearT1IronSpear']/effect_group[@name='meleeWpnSpearT1IronSpear']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">24</set>
+	<!-- <set xpath="/items/item[@name='meleeWpnSpearT1IronSpear']/effect_group[@name='meleeWpnSpearT1IronSpear']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">24</set> -->
 	
-	<set xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']/effect_group[@name='meleeWpnSpearT3SteelSpear']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">36</set>
+	<!-- <set xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']/effect_group[@name='meleeWpnSpearT3SteelSpear']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">36</set> -->
 	
 	<!--
 		Bullets
@@ -40,22 +40,36 @@
 	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/property[@name='EconomicValue']/@value">200</set>
 	<!-- <set xpath="/items/item[@name='ammoBlunderbuss']/property[@name='EconomicValue']/@value">10</set> -->
 	
-	<append xpath="/items/item[@name='ammo9mmBulletBall']/effect_group[@name='ammo9mmBulletBall']">
+	<set xpath="/items/item[@name='ammo9mmBulletBall']/effect_group[@name='ammo9mmBulletBall']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">52</set>
+	<set xpath="/items/item[@name='ammo9mmBulletBall']/effect_group[@name='ammo9mmBulletBall']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">1</set>
+
+	<set xpath="/items/item[@name='ammo9mmBulletHP']/effect_group[@name='ammo9mmBulletHP']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">55</set>
+	<set xpath="/items/item[@name='ammo9mmBulletHP']/effect_group[@name='ammo9mmBulletHP']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">2</set>
+
+	<set xpath="/items/item[@name='ammo9mmBulletAP']/effect_group[@name='ammo9mmBulletAP']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">68</set>
+	<set xpath="/items/item[@name='ammo9mmBulletAP']/effect_group[@name='ammo9mmBulletAP']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">0</set>
+
+	<set xpath="/items/item[@name='ammo762mmBulletBall']/effect_group[@name='ammo762mmBulletBall']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">102</set>
+	<set xpath="/items/item[@name='ammo762mmBulletBall']/effect_group[@name='ammo762mmBulletBall']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">4</set>
+
+	<set xpath="/items/item[@name='ammo762mmBulletHP']/effect_group[@name='ammo762mmBulletHP']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">114</set>
+	<set xpath="/items/item[@name='ammo762mmBulletHP']/effect_group[@name='ammo762mmBulletHP']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">12</set>
+
+	<set xpath="/items/item[@name='ammo762mmBulletAP']/effect_group[@name='ammo762mmBulletAP']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">137</set>
+	<set xpath="/items/item[@name='ammo762mmBulletAP']/effect_group[@name='ammo762mmBulletAP']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">6</set>
+
+	<set xpath="/items/item[@name='ammoShotgunShell']/effect_group[@name='ammoShotgunShell']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">15.7</set>
+	<set xpath="/items/item[@name='ammoShotgunShell']/effect_group[@name='ammoShotgunShell']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">12</set>
+
+	<set xpath="/items/item[@name='ammoShotgunSlug']/effect_group[@name='ammoShotgunSlug']/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">21</set>
+	<set xpath="/items/item[@name='ammoShotgunSlug']/effect_group[@name='ammoShotgunSlug']/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">32</set>
+
+	<!-- <append xpath="/items/item[@name='ammo9mmBulletBall']/effect_group[@name='ammo9mmBulletBall']">
 		<passive_effect name="EntityDamage" operation="base_add" value="10" tags="perkGunslinger,revolver"/>
 		<passive_effect name="BlockDamage" operation="base_add" value="1" tags="perkGunslinger,revolver"/>
-	</append>
+	</append> -->
 	
-	<append xpath="/items/item[@name='ammo9mmBulletHP']/effect_group[@name='ammo9mmBulletHP']">
-		<passive_effect name="EntityDamage" operation="base_add" value="20" tags="perkGunslinger,revolver"/>
-		<passive_effect name="BlockDamage" operation="base_add" value="10" tags="perkGunslinger,revolver"/>
-	</append>
-	
-	<append xpath="/items/item[@name='ammo9mmBulletAP']/effect_group[@name='ammo9mmBulletAP']">
-		<passive_effect name="EntityDamage" operation="base_add" value="10" tags="perkGunslinger,revolver"/>
-		<passive_effect name="BlockDamage" operation="base_add" value="-1" tags="perkGunslinger,revolver"/>
-	</append>
-	
-	<append xpath="/items/item[@name='ammo44MagnumBulletBall']/effect_group[@name='ammo44MagnumBulletBall']">
+	<!-- <append xpath="/items/item[@name='ammo44MagnumBulletBall']/effect_group[@name='ammo44MagnumBulletBall']">
 		<passive_effect name="EntityDamage" operation="base_add" value="70" tags="perkGunslinger,revolver"/>
 		<passive_effect name="BlockDamage" operation="base_add" value="3" tags="perkGunslinger,revolver"/>
 	</append>
@@ -70,42 +84,17 @@
 		<passive_effect name="BlockDamage" operation="base_add" value="-6" tags="perkGunslinger,revolver"/>
 	</append>
 	
-	<append xpath="/items/item[@name='ammo762mmBulletBall']/effect_group[@name='ammo762mmBulletBall']">
-		<passive_effect name="EntityDamage" operation="base_add" value="100" tags="perkDeadEye,perkMachineGunner"/>
-		<passive_effect name="BlockDamage" operation="base_add" value="16" tags="perkDeadEye,perkMachineGunner"/>
-	</append>
-	
-	<append xpath="/items/item[@name='ammo762mmBulletHP']/effect_group[@name='ammo762mmBulletHP']">
-		<passive_effect name="EntityDamage" operation="base_add" value="125" tags="perkDeadEye,perkMachineGunner"/>
-		<passive_effect name="BlockDamage" operation="base_add" value="32" tags="perkDeadEye,perkMachineGunner"/>
-	</append>
-	
-	<append xpath="/items/item[@name='ammo762mmBulletAP']/effect_group[@name='ammo762mmBulletAP']">
-		<passive_effect name="EntityDamage" operation="base_add" value="150" tags="perkDeadEye,perkMachineGunner"/>
-		<passive_effect name="BlockDamage" operation="base_add" value="10" tags="perkDeadEye,perkMachineGunner"/>
-	</append>
-	
-	<append xpath="/items/item[@name='ammoShotgunShell']/effect_group[@name='ammoShotgunShell']">
-		<passive_effect name="EntityDamage" operation="base_add" value="10" tags="perkBoomstick"/>
-		<passive_effect name="BlockDamage" operation="base_add" value="10" tags="perkBoomstick"/>
-	</append>
-	
-	<append xpath="/items/item[@name='ammoShotgunSlug']/effect_group[@name='ammoShotgunSlug']">
-		<passive_effect name="EntityDamage" operation="base_add" value="30" tags="perkBoomstick"/>
-		<passive_effect name="BlockDamage" operation="base_add" value="40" tags="perkBoomstick"/>
-	</append>
-	
 	<append xpath="/items/item[@name='ammoShotgunBreachingSlug']/effect_group[@name='ammoShotgunBreachingSlug']">
 		<passive_effect name="EntityDamage" operation="base_add" value="50" tags="perkBoomstick"/>
 		<passive_effect name="BlockDamage" operation="base_add" value="100" tags="perkBoomstick"/>
-	</append>
+	</append> -->
 	
 	<!-- <append xpath="/items/item[@name='ammoBlunderbuss']/effect_group[@name='ammoBlunderbuss']">
 		<passive_effect name="EntityDamage" operation="base_add" value="5" tags="perkBoomstick"/>
 		<passive_effect name="BlockDamage" operation="base_add" value="1" tags="perkBoomstick"/>
 	</append> -->
 	
-	<append xpath="/items/item[@name='ammoJunkTurretRegular']/effect_group[@name='ammoJunkTurretRegular']">
+	<!-- <append xpath="/items/item[@name='ammoJunkTurretRegular']/effect_group[@name='ammoJunkTurretRegular']">
 		<passive_effect name="EntityDamage" operation="base_add" value="7" tags="perkBoomstick"/>
 		<passive_effect name="BlockDamage" operation="base_add" value="-3" tags="perkBoomstick"/>
 	</append>
@@ -118,7 +107,7 @@
 	<append xpath="/items/item[@name='ammoJunkTurretAP']/effect_group[@name='ammoJunkTurretAP']">
 		<passive_effect name="EntityDamage" operation="base_add" value="14" tags="perkBoomstick"/>
 		<passive_effect name="BlockDamage" operation="base_add" value="-1" tags="perkBoomstick"/>
-	</append>
+	</append> -->
 	
 	<!--
 		Zombie

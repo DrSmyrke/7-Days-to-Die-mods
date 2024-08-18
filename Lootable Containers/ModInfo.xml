@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="Lootable Containers" />
-		<Description value="Makes it possible to search containers that should be searched." />
-		<Author value="Dr.Smyrke" />
-		<Version value="1.0" />
-	</ModInfo>
+	<Name value="Lootable_Containers" />
+	<DisplayName value="Lootable Containers" />
+	<Description value="Makes it possible to search containers that should be searched." />
+	<Author value="Dr.Smyrke" />
+	<Version value="1.0" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
 </xml>
