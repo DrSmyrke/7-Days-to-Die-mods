@@ -3,7 +3,9 @@
 <drsmyrke>
 	<!--	Infection !!!!		-->
 	<append xpath="/buffs/buff[@name='buffInfectionMain'][@name_key='buff Infection Main']/effect_group[@name='main loop']">
-		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".infectionDisplayPerc" operation="set" value="82.6">
+		<requirement name="CVarCompare" cvar="infectionDisplayDivisor" operation="LT" value="10"/>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Health" operation="subtract" value=".037"/>
+		<!-- <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".infectionDisplayPerc" operation="set" value="82.6">
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GT" value=".95"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".infectionDisplayPerc" operation="set" value="77.2">
@@ -32,7 +34,7 @@
 		</triggered_effect>
 		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".infectionDisplayPerc" operation="set" value="10">
 			<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LTE" value=".50"/>
-		</triggered_effect>
+		</triggered_effect> -->
 	</append>
 	
 	<set xpath="/buffs/buff[@name='buffInfectionMain'][@name_key='buff Infection Main']/update_rate/@value">.05</set>
