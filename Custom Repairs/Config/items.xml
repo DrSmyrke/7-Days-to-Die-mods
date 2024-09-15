@@ -4,21 +4,20 @@
 	<!-- Пистолеты -->
 	<append xpath="/items/item[@name='gunHandgunT1PistolParts']">
 		<property name="RepairTime" value="40"/>
-		<property name="RepairAmount" value="64"/>
-		<!--<property name="Group" value="Resources"/>-->
+		<property name="RepairAmount" value="128"/>
 	</append>
 	
 	<set xpath="/items/item[@name='gunHandgunT1Pistol']/property[@name='RepairTools']/@value">gunHandgunT1PistolParts</set>
-	<!-- <set xpath="/items/item[@name='gunHandgunT1Pistol']/effect_group[@name='gunHandgunT1Pistol']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunHandgunT1Pistol']/effect_group[@name='gunHandgunT1Pistol']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
 	<set xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@name='RepairTools']/@value">gunHandgunT1PistolParts</set>
-	<!-- <set xpath="/items/item[@name='gunHandgunT2Magnum44']/effect_group[@name='gunHandgunT2Magnum44']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunHandgunT2Magnum44']/effect_group[@name='gunHandgunT2Magnum44']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
 	<set xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='RepairTools']/@value">gunHandgunT1PistolParts</set>
-	<!-- <set xpath="/items/item[@name='gunHandgunT3SMG5']/effect_group[@name='gunHandgunT3SMG5']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunHandgunT3SMG5']/effect_group[@name='gunHandgunT3SMG5']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
 	<set xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@name='RepairTools']/@value">gunHandgunT1PistolParts</set>
-	<!-- <set xpath="/items/item[@name='gunHandgunT3DesertVulture']/effect_group[@name='gunHandgunT3DesertVulture']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunHandgunT3DesertVulture']/effect_group[@name='gunHandgunT3DesertVulture']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
 	
 	
@@ -27,35 +26,38 @@
 	<!-- Винтовки -->
 	<append xpath="/items/item[@name='gunRifleT1HuntingRifleParts']">
 		<property name="RepairTime" value="40"/>
-		<property name="RepairAmount" value="64"/>
-		<!--<property name="Group" value="Resources"/>-->
+		<property name="RepairAmount" value="128"/>
 	</append>
 	
 	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@name='RepairTools']/@value">gunRifleT1HuntingRifleParts</set>
-	<!-- <set xpath="/items/item[@name='gunRifleT1HuntingRifle']/effect_group[@name='gunRifleT1HuntingRifle']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/effect_group[@name='gunRifleT1HuntingRifle']/passive_effect[@name='DegradationMax'][@operation='base_set']/@value">700,1700</set>
+	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/effect_group[@name='gunRifleT1HuntingRifle']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
 	<set xpath="/items/item[@name='gunRifleT2LeverActionRifle']/property[@name='RepairTools']/@value">gunRifleT1HuntingRifleParts</set>
-	<!-- <set xpath="/items/item[@name='gunRifleT2MarksmanRifle']/effect_group[@name='gunRifleT2MarksmanRifle']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/effect_group[@name='gunRifleT1HuntingRifle']/passive_effect[@name='DegradationMax'][@operation='base_set']/@value">600,1200</set>
+	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/effect_group[@name='gunRifleT1HuntingRifle']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.4</set>
 	
 	<set xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@name='RepairTools']/@value">gunRifleT1HuntingRifleParts</set>
-	<!-- <set xpath="/items/item[@name='gunRifleT3SniperRifle']/effect_group[@name='gunRifleT3SniperRifle']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunRifleT3SniperRifle']/effect_group[@name='gunRifleT3SniperRifle']/passive_effect[@name='DegradationMax'][@operation='base_set']/@value">900,1500</set>
+	<set xpath="/items/item[@name='gunRifleT3SniperRifle']/effect_group[@name='gunRifleT3SniperRifle']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.1</set>
 	
 	
 	<!-- Автоматы -->
 	<append xpath="/items/item[@name='gunMGT1AK47Parts']">
 		<property name="RepairTime" value="40"/>
-		<property name="RepairAmount" value="64"/>
-		<!--<property name="Group" value="Resources"/>-->
+		<property name="RepairAmount" value="128"/>
 	</append>
 	
 	<set xpath="/items/item[@name='gunMGT1AK47']/property[@name='RepairTools']/@value">gunMGT1AK47Parts</set>
-	<!-- <set xpath="/items/item[@name='gunMGT1AK47']/effect_group[@name='gunMGT1AK47']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunMGT1AK47']/effect_group[@name='gunMGT1AK47']/passive_effect[@name='DegradationMax'][@operation='base_set']/@value">400,1200</set>
+	<set xpath="/items/item[@name='gunMGT1AK47']/effect_group[@name='gunMGT1AK47']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
 	<set xpath="/items/item[@name='gunMGT2TacticalAR']/property[@name='RepairTools']/@value">gunMGT1AK47Parts</set>
-	<!-- <set xpath="/items/item[@name='gunMGT2TacticalAR']/effect_group[@name='gunMGT2TacticalAR']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunMGT2TacticalAR']/effect_group[@name='gunMGT2TacticalAR']/passive_effect[@name='DegradationMax'][@operation='base_set']/@value">300,800</set>
+	<set xpath="/items/item[@name='gunMGT2TacticalAR']/effect_group[@name='gunMGT2TacticalAR']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.4</set>
 	
 	<set xpath="/items/item[@name='gunMGT3M60']/property[@name='RepairTools']/@value">gunMGT1AK47Parts</set>
-	<!-- <set xpath="/items/item[@name='gunMGT3M60']/effect_group[@name='gunMGT3M60']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunMGT3M60']/effect_group[@name='gunMGT3M60']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.4</set>
 	
 	
 	<!-- РПГ -->
@@ -71,50 +73,49 @@
 	<!-- Дробовики -->
 	<append xpath="/items/item[@name='gunShotgunT1DoubleBarrelParts']">
 		<property name="RepairTime" value="40"/>
-		<property name="RepairAmount" value="64"/>
+		<property name="RepairAmount" value="128"/>
 		<!--<property name="Group" value="Resources"/>-->
 	</append>
 	
 	<set xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/property[@name='RepairTools']/@value">gunShotgunT1DoubleBarrelParts</set>
-	<!-- <set xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/effect_group[@name='gunShotgunT1DoubleBarrel']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/effect_group[@name='gunShotgunT1DoubleBarrel']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.3</set>
 	
 	<set xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@name='RepairTools']/@value">gunShotgunT1DoubleBarrelParts</set>
-	<!-- <set xpath="/items/item[@name='gunShotgunT2PumpShotgun']/effect_group[@name='gunShotgunT2PumpShotgun']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunShotgunT2PumpShotgun']/effect_group[@name='gunShotgunT2PumpShotgun']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.5</set>
 	
 	<set xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@name='RepairTools']/@value">gunShotgunT1DoubleBarrelParts</set>
-	<!-- <set xpath="/items/item[@name='gunShotgunT3AutoShotgun']/effect_group[@name='gunShotgunT3AutoShotgun']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunShotgunT3AutoShotgun']/effect_group[@name='gunShotgunT3AutoShotgun']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.7</set>
 
 	<!-- Луки, Арбалеты -->
 	<append xpath="/items/item[@name='gunBowT1WoodenBowParts']">
 		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="64"/>
+		<property name="RepairAmount" value="128"/>
 		<!--<property name="Group" value="Resources"/>-->
 	</append>
 	
 	<set xpath="/items/item[@name='gunBowT1WoodenBow']/property[@name='RepairTools']/@value">gunBowT1WoodenBowParts</set>
-	<!-- <set xpath="/items/item[@name='gunBowT1WoodenBow']/effect_group[@name='gunBowT1WoodenBow']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunBowT1WoodenBow']/effect_group[@name='gunBowT1WoodenBow']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
 	<set xpath="/items/item[@name='gunBowT3CompoundBow']/property[@name='RepairTools']/@value">gunBowT1WoodenBowParts</set>
-	<!-- <set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='gunBowT3CompoundBow']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/effect_group[@name='gunBowT3CompoundBow']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
 	<set xpath="/items/item[@name='gunBowT1IronCrossbow']/property[@name='RepairTools']/@value">gunBowT1WoodenBowParts</set>
-	<!-- <set xpath="/items/item[@name='gunBowT1IronCrossbow']/effect_group[@name='gunBowT1IronCrossbow']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunBowT1IronCrossbow']/effect_group[@name='gunBowT1IronCrossbow']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
 	<set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@name='RepairTools']/@value">gunBowT1WoodenBowParts</set>
-	<!-- <set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/effect_group[@name='gunBowT3CompoundCrossbow']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set> -->
+	<set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/effect_group[@name='gunBowT3CompoundCrossbow']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
 	<!-- Бензопила и Бур -->
 	<append xpath="/items/item[@name='meleeToolAxeT3ChainsawParts']">
 		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="64"/>
-		<!--<property name="Group" value="Resources"/>-->
+		<property name="RepairAmount" value="128"/>
 	</append>
 	
 	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@name='RepairTools']/@value">meleeToolAxeT3ChainsawParts</set>
-	<!-- <set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.1</set> -->
+	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.7</set>
 	
 	<set xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='RepairTools']/@value">meleeToolAxeT3ChainsawParts</set>
-	<!-- <set xpath="/items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.1</set> -->
+	<set xpath="/items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.4</set>
 	
 	
 	<!-- Копья -->
@@ -130,12 +131,11 @@
 	</append> -->
 
 	<!--	Мачете	-->
-	<!-- <append xpath="/items/item[@name='meleeWpnBladeT3MacheteParts']"> -->
-		<!-- <property name="RepairTime" value="10"/> -->
-		<!-- <property name="RepairAmount" value="64"/> -->
-		<!--<property name="Group" value="Resources"/>-->
-	<!-- </append> -->
-	<!-- <set xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='RepairTools']/@value">meleeWpnBladeT3MacheteParts</set> -->
+	<append xpath="/items/item[@name='meleeWpnBladeT3MacheteParts']">
+		<property name="RepairTime" value="10"/>
+		<property name="RepairAmount" value="64"/>
+	</append>
+	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='RepairTools']/@value">meleeWpnBladeT3MacheteParts</set>
 
 	<!--	Нож	-->
 	<set xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/property[@name='RepairTools']/@value">resourceForgedIron</set>
@@ -167,34 +167,42 @@
 	<set xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnuckles']/effect_group[@name='meleeWpnKnucklesT3SteelKnuckles']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">.2</set>
 	
 	<!-- Шок дубинка -->
-	<!-- <append xpath="/items/item[@name='meleeWpnBatonT2StunBatonParts']"> -->
-		<!-- <property name="RepairTime" value="10"/> -->
-		<!-- <property name="RepairAmount" value="64"/> -->
-		<!--<property name="Group" value="Resources"/>-->
-	<!-- </append> -->
+	<append xpath="/items/item[@name='meleeWpnBatonT2StunBatonParts']">
+		<property name="RepairTime" value="10"/>
+		<property name="RepairAmount" value="64"/>
+	</append>
 	
-	<!-- <set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/property[@name='RepairTools']/@value">meleeWpnBatonT2StunBatonParts</set> -->
-	<!-- <set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group[@name='meleeWpnBatonT2StunBaton']/passive_effect[@name='DegradationMax'][@operation='base_set']/@value">750,1800</set> -->
-	<!-- <set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group[@name='meleeWpnBatonT2StunBaton']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">1.5</set> -->
+	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/property[@name='RepairTools']/@value">meleeWpnBatonT2StunBatonParts</set>
+	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group[@name='meleeWpnBatonT2StunBaton']/passive_effect[@name='DegradationMax'][@operation='base_set']/@value">750,1800</set>
+	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group[@name='meleeWpnBatonT2StunBaton']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">1.5</set>
 	
-	<!-- <set xpath="/items/item[@name='meleeWpnBatonT3PlasmaBaton']/property[@name='RepairTools']/@value">meleeWpnBatonT2StunBatonParts</set> -->
-	<!-- <set xpath="/items/item[@name='meleeWpnBatonT3PlasmaBaton']/effect_group[@name='meleeWpnBatonT3PlasmaBaton']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">1.5</set> -->
-	
-	
-	
+
+
+
+	<set xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']/property[@name='RepairTools']/@value">resourceForgedIron</set>
+	<set xpath="/items/item[@name='meleeToolShovelT1IronShovel']/property[@name='RepairTools']/@value">resourceForgedIron</set>
+	<set xpath="/items/item[@name='meleeToolPickT1IronPickaxe']/property[@name='RepairTools']/@value">resourceForgedIron</set>
+	<set xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='RepairTools']/@value">resourceForgedIron</set>
+	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@name='RepairTools']/@value">resourceForgedIron</set>
+
+	<set xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']/property[@name='RepairTools']/@value">meleeToolAllSteelParts</set>
+	<set xpath="/items/item[@name='meleeToolShovelT2SteelShovel']/property[@name='RepairTools']/@value">meleeToolAllSteelParts</set>
+	<set xpath="/items/item[@name='meleeToolAxeT2SteelAxe']/property[@name='RepairTools']/@value">meleeToolAllSteelParts</set>
+
+
+
 	<!-- Хламомёты -->
-	<!-- <append xpath="/items/item[@name='gunBotRoboticsParts']"> -->
-		<!-- <property name="RepairTime" value="10"/> -->
-		<!-- <property name="RepairAmount" value="64"/> -->
-		<!--<property name="Group" value="Resources"/>-->
-	<!-- </append> -->
+	<append xpath="/items/item[@name='gunBotRoboticsParts']">
+		<property name="RepairTime" value="10"/>
+		<property name="RepairAmount" value="128"/>
+	</append>
 	
-	<!-- <set xpath="/items/item[@name='gunBotT1JunkSledge']/property[@name='RepairTools']/@value">gunBotRoboticsParts</set> -->
-	<!-- <set xpath="/items/item[@name='gunBotT2JunkTurret']/property[@name='RepairTools']/@value">gunBotRoboticsParts</set> -->
-	<!-- <set xpath="/items/item[@name='gunBotT3JunkDrone']/property[@name='RepairTools']/@value">gunBotRoboticsParts</set> -->
-	<!-- <set xpath="/items/item[@name='gunBotT1JunkSledge']/effect_group[@name='gunBotT1JunkSledge']/passive_effect[@name='DegradationMax'][@operation='base_set']/@value">250,1600</set> -->
-	<!-- <set xpath="/items/item[@name='gunBotT2JunkTurret']/effect_group[@name='gunBotT2JunkTurret']/passive_effect[@name='DegradationMax'][@operation='base_set']/@value">250,1600</set> -->
-	<!-- <set xpath="/items/item[@name='gunBotT3JunkDrone']/effect_group[@name='gunBotT3JunkDrone']/passive_effect[@name='DegradationMax'][@operation='base_set']/@value">250,1600</set> -->
+	<set xpath="/items/item[@name='gunBotT1JunkSledge']/property[@name='RepairTools']/@value">gunBotRoboticsParts</set>
+	<set xpath="/items/item[@name='gunBotT2JunkTurret']/property[@name='RepairTools']/@value">gunBotRoboticsParts</set>
+	<set xpath="/items/item[@name='gunBotT3JunkDrone']/property[@name='RepairTools']/@value">gunBotRoboticsParts</set>
+	<set xpath="/items/item[@name='gunBotT1JunkSledge']/effect_group[@name='gunBotT1JunkSledge']/passive_effect[@name='DegradationMax'][@operation='base_set']/@value">250,1600</set>
+	<set xpath="/items/item[@name='gunBotT2JunkTurret']/effect_group[@name='gunBotT2JunkTurret']/passive_effect[@name='DegradationMax'][@operation='base_set']/@value">250,1600</set>
+	<set xpath="/items/item[@name='gunBotT3JunkDrone']/effect_group[@name='gunBotT3JunkDrone']/passive_effect[@name='DegradationMax'][@operation='base_set']/@value">250,1600</set>
 	<!--
 	<set xpath="/items/item[@name='gunBotT2JunkTurret']/effect_group[@name='gunBotT2JunkTurret']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.35</set>
 	-->
@@ -203,35 +211,33 @@
 	<!--	Ресурсы	-->
 	<set xpath="/items/item[@name='resourceRockSmall']/property[@name='RepairTime']/@value">3</set>
 	<set xpath="/items/item[@name='resourceRockSmall']/property[@name='RepairAmount']/@value">100</set>
-	<set xpath="/items/item[@name='resourceForgedIron']/property[@name='RepairTime']/@value">.2</set>
+	<set xpath="/items/item[@name='resourceForgedIron']/property[@name='RepairTime']/@value">4</set>
 	<set xpath="/items/item[@name='resourceForgedIron']/property[@name='RepairAmount']/@value">128</set>
-	<set xpath="/items/item[@name='resourceForgedSteel']/property[@name='RepairTime']/@value">2</set>
+	<set xpath="/items/item[@name='resourceForgedSteel']/property[@name='RepairTime']/@value">5</set>
 	<set xpath="/items/item[@name='resourceForgedSteel']/property[@name='RepairAmount']/@value">300</set>
 	<set xpath="/items/item[@name='resourceYuccaFibers']/property[@name='RepairTime']/@value">.1</set>
-	<set xpath="/items/item[@name='resourceYuccaFibers']/property[@name='RepairAmount']/@value">3</set>
+	<set xpath="/items/item[@name='resourceYuccaFibers']/property[@name='RepairAmount']/@value">2</set>
 	<set xpath="/items/item[@name='resourceLeather']/property[@name='RepairAmount']/@value">7</set>
 
 	<append xpath="/items/item[@name='resourceLeather']">
-		<property name="RepairTime" value="20"/>
+		<property name="RepairTime" value="12"/>
 	</append>
 	<append xpath="/items/item[@name='resourceScrapIron']">
 		<property name="RepairTime" value="5"/>
 		<property name="RepairAmount" value="2"/>
 	</append>
 	<append xpath="/items/item[@name='resourceScrapPolymers']">
-		<property name="RepairTime" value="40"/>
+		<property name="RepairTime" value="12"/>
 		<property name="RepairAmount" value="4"/>
 	</append>
 	<append xpath="/items/item[@name='armorParts']">
-		<property name="RepairTime" value="37"/>
+		<property name="RepairTime" value="17"/>
 		<property name="RepairAmount" value="73"/>
 	</append>
 	<append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnucklesParts']">
 		<property name="RepairTime" value="10"/>
 		<property name="RepairAmount" value="64"/>
 	</append>
-	
-	<!--
 	<append xpath="/items/item[@name='meleeToolAllSteelParts']">
 		<property name="RepairTime" value="60"/>
 		<property name="RepairAmount" value="128"/>
@@ -239,7 +245,7 @@
 	<append xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']">
 		<property name="RepairTime" value="80"/>
 		<property name="RepairAmount" value="128"/>
-	</append> -->
+	</append>
 	
 	
 	<!--	Armor	-->
@@ -304,23 +310,16 @@
 	<append xpath="/items/item[@name='armorRaiderBoots']"><property name="RepairTools" value="resourceScrapIron"/></append>
 	<append xpath="/items/item[@name='armorRaiderOutfit']"><property name="RepairTools" value="resourceForgedIron"/></append>
 
-	<!-- <append xpath="/items/item[@name='armorRaiderHelmet']"><property name="RepairTools" value="resourceForgedIron"/></append> -->
-	<!-- <append xpath="/items/item[@name='armorRaiderGloves']"><property name="RepairTools" value="resourceScrapIron"/></append> -->
+	<append xpath="/items/item[@name='armorRangerHelmet']"><property name="RepairTools" value="resourceLeather"/></append>
+	<append xpath="/items/item[@name='armorRangerGloves']"><property name="RepairTools" value="resourceLeather"/></append>
 	<append xpath="/items/item[@name='armorRangerBoots']"><property name="RepairTools" value="resourceLeather"/></append>
-	<!-- <append xpath="/items/item[@name='armorRaiderOutfit']"><property name="RepairTools" value="resourceForgedIron"/></append> -->
+	<append xpath="/items/item[@name='armorRangerOutfit']"><property name="RepairTools" value="resourceLeather"/></append>
 
 	<!-- <set xpath="/items/item[@name='armorScrapMaster']/property[@name='RepairTools']/@value">resourceScrapIron</set> -->
 	<!-- <set xpath="/items/item[@name='armorMilitaryMaster']/property[@name='RepairTools']/@value">armorMilitarySetParts</set> -->
 	<!-- <set xpath="/items/item[@name='armorIronMaster']/property[@name='RepairTools']/@value">resourceForgedIron</set> -->
 	<!-- <set xpath="/items/item[@name='armorSteelMaster']/property[@name='RepairTools']/@value">armorSteelSetParts</set> -->
 	<!-- <set xpath="/items/item[@name='armorSwatHelmet']/property[@name='RepairTools']/@value">resourceScrapIron</set> -->
-	
-	
-	<!-- meleeTool`s -->
-	<!-- <set xpath="/items/item[@name='meleeToolPickT1IronPickaxe']/property[@name='RepairTools']/@value">resourceForgedIron</set> -->
-	<!-- <set xpath="/items/item[@name='meleeToolShovelT1IronShovel']/property[@name='RepairTools']/@value">resourceForgedIron</set> -->
-	<!-- <set xpath="/items/item[@name='meleeToolShovelT2SteelShovel']/property[@name='RepairTools']/@value">meleeToolAllSteelParts</set> -->
-	<!-- <set xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']/property[@name='RepairTools']/@value">meleeToolAllSteelParts</set> -->
 	
 	<!-- <append xpath="/items/item[@name='meleeToolAxeT2SteelAxe']">
 		<property name="RepairTools" value="meleeToolAllSteelParts"/>
@@ -333,16 +332,15 @@
 	<!-- <set xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammer']/property[@name='RepairTools']/@value">meleeWpnSledgeT3SteelSledgehammerParts</set> -->
 	
 	<!--	Not repair	-->
-	<remove xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@name='RepairTools']"/>
-	<remove xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']/property[@name='RepairTools']"/>
-	<remove xpath="/items/item[@name='meleeToolShovelT1IronShovel']/property[@name='RepairTools']"/>
-	<remove xpath="/items/item[@name='meleeToolPickT1IronPickaxe']/property[@name='RepairTools']"/>
-	<remove xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']/property[@name='RepairTools']"/>
-	<remove xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='RepairTools']"/>
+	<!-- <remove xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@name='RepairTools']"/> -->
+	<!-- <remove xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']/property[@name='RepairTools']"/> -->
+	<!-- <remove xpath="/items/item[@name='meleeToolShovelT1IronShovel']/property[@name='RepairTools']"/> -->
+	<!-- <remove xpath="/items/item[@name='meleeToolPickT1IronPickaxe']/property[@name='RepairTools']"/> -->
+	<!-- <remove xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']/property[@name='RepairTools']"/> -->
+	<!-- <remove xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='RepairTools']"/> -->
 	<remove xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/property[@name='RepairTools']"/>
+	<remove xpath="/items/item[@name='meleeWpnBladeT1CandyKnife']/property[@name='RepairTools']"/>
 	<remove xpath="/items/item[@name='meleeWpnKnucklesT1IronKnuckles']/property[@name='RepairTools']"/>
-
-	
 	
 	<!--	REPAIR kit	-->
 	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='RepairTime']/@value">10</set>
