@@ -105,18 +105,12 @@
 	<set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@name='RepairTools']/@value">gunBowT1WoodenBowParts</set>
 	<set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/effect_group[@name='gunBowT3CompoundCrossbow']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.2</set>
 	
-	<!-- Бензопила и Бур -->
-	<append xpath="/items/item[@name='meleeToolAxeT3ChainsawParts']">
-		<property name="RepairTime" value="10"/>
-		<property name="RepairAmount" value="128"/>
-	</append>
-	
+	<!-- Бензопила, Бур  -->
 	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@name='RepairTools']/@value">meleeToolAxeT3ChainsawParts</set>
 	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/effect_group[@name='meleeToolAxeT3Chainsaw']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.7</set>
 	
 	<set xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='RepairTools']/@value">meleeToolAxeT3ChainsawParts</set>
 	<set xpath="/items/item[@name='meleeToolPickT3Auger']/effect_group[@name='meleeToolPickT3Auger']/passive_effect[@name='DegradationPerUse'][@operation='base_set']/@value">0.4</set>
-	
 	
 	<!-- Копья -->
 	
@@ -246,6 +240,10 @@
 		<property name="RepairTime" value="80"/>
 		<property name="RepairAmount" value="128"/>
 	</append>
+	<append xpath="/items/item[@name='meleeToolAxeT3ChainsawParts']">
+		<property name="RepairTime" value="20"/>
+		<property name="RepairAmount" value="256"/>
+	</append>
 	
 	
 	<!--	Armor	-->
@@ -329,7 +327,9 @@
 		<property name="RepairTools" value="meleeToolAllSteelParts"/>
 	</append> -->
 	
-	<!-- <set xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammer']/property[@name='RepairTools']/@value">meleeWpnSledgeT3SteelSledgehammerParts</set> -->
+	<!-- Инструменты -->
+	<set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/property[@name='RepairTools']/@value">meleeToolAllSteelParts</set>
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@name='RepairTools']/@value">meleeToolAllSteelParts</set>
 	
 	<!--	Not repair	-->
 	<!-- <remove xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@name='RepairTools']"/> -->
